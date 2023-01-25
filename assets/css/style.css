@@ -1,0 +1,31 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    background-color: skyblue;
+    background-size: cover;
+    height: 91vh;
+}
+
+.program-section {
+    background-color: greenyellow;
+    background-size: cover;
+    height: 95vh;
+}
+
+.title {
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.subtitle {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: medium;
+}
+
+/* Carousel CSS */
+ 
