@@ -7,13 +7,25 @@ body {
 .hero {
     background-color: skyblue;
     background-size: cover;
-    height: 91vh;
+    height: 100vh;
 }
 
 .program-section {
     background-color: greenyellow;
     background-size: cover;
-    height: 95vh;
+    height: 100vh;
+}
+
+.impact-section {
+    background-color: pink;
+    background-size: cover;
+    height: 100vh;
+}
+
+.action-section {
+    background-color: yellow;
+    background-size: cover;
+    height: 100vh;
 }
 
 .title {
