@@ -67,3 +67,10 @@ body {
 }
 /* Carousel CSS */
  
+/* Stories.html */
+
+.story-banner {
+    background-color: skyblue;
+    background-size: cover;
+    height: 50vh;
+}
