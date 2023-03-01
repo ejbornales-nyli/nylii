@@ -41,7 +41,7 @@ a.nav-link:hover {
 }
 
 .hero h1 {
-    font-size: 72px;
+    font-size: 64px;
 }
 
 .program-section {
@@ -101,10 +101,9 @@ a.nav-link:hover {
     color: #106544;
     background-color: #fff;
 }
-<<<<<<< Updated upstream
 /* Carousel CSS */
  
-/* Stories.html */
+/* stories.html */
 
 .story-banner {
     background-color: skyblue;
@@ -113,12 +112,13 @@ a.nav-link:hover {
 }
 
 .header-line {
-   
     background-color: skyblue;
     background-size: cover;
-    height: 5vh;
+    height: 4.5vh;
+    width: 100%;
+    position: relative;
+    top: -8px;
 }
-=======
 
 .icons ul li:hover {
     background-color: #106544;
@@ -144,7 +144,7 @@ a.nav-link:hover {
 .nyli-btn-nav {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: transparent;
     border: 2px solid #106544;
     border-radius: 9999px;
     margin-left: 4px;
@@ -209,6 +209,3 @@ a.btn-link:hover {
     border: 2px solid white;
     border-radius: 9999px;
 }
-
-/* Carousel CSS */
->>>>>>> Stashed changes
