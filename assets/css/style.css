@@ -74,3 +74,10 @@ body {
     background-size: cover;
     height: 50vh;
 }
+
+.header-line {
+   
+    background-color: skyblue;
+    background-size: cover;
+    height: 5vh;
+}
