@@ -16,7 +16,7 @@ hr.break {
     display: block;
     width: 3rem;
     background-color: black;
-    border: 3px solid #A3C53A;
+    border: 3px solid #006443;
     border-radius: 5px;
 }
 
@@ -98,7 +98,7 @@ a.nav-link:hover {
     padding-left: 12px;
     padding-top: 6px;
     margin-top: 5px;
-    color: #106544;
+    color: #a3c53a;
     background-color: #fff;
 }
 /* Carousel CSS */
@@ -121,7 +121,7 @@ a.nav-link:hover {
 }
 
 .icons ul li:hover {
-    background-color: #106544;
+    background-color: #a3c53a;
     color: white;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
