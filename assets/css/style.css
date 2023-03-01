@@ -1,29 +1,63 @@
+@font-face {
+    font-family: 'Agrandir Regular';
+    src: url('/assets/fonts/Agrandir\ Regular.ttf') format('truetype');
+}
+
+#nav-cta {
+    font-family: 'Agrandir Regular';
+}
 
 body {
     padding: 0;
     margin: 0;
 }
 
+hr.break {
+    display: block;
+    width: 3rem;
+    background-color: black;
+    border: 3px solid #A3C53A;
+    border-radius: 5px;
+}
+
+a.nav-link {
+    color: #106544;
+    font-family: 'Agrandir Regular';
+}
+
+a.nav-link:hover {
+    color: #A3C53A;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 175ms;
+}
+
 .hero {
-    background-color: skyblue;
+    background-color: gray;
+    color: white;
     background-size: cover;
     height: 100vh;
+    font-family: 'Agrandir Regular';
+}
+
+.hero h1 {
+    font-size: 72px;
 }
 
 .program-section {
-    background-color: greenyellow;
+    background-color: white;
     background-size: cover;
     height: 100vh;
 }
 
 .impact-section {
-    background-color: pink;
+    background-color: white;
     background-size: cover;
     height: 100vh;
 }
 
 .action-section {
-    background-color: yellow;
+    background-color: white;
     background-size: cover;
     height: 100vh;
 }
@@ -45,13 +79,14 @@ body {
     height: 25vh;
 }
 
-.icons{
-    top:50%;
+.icons {
+    top: 50%;
     right: 0;
     transform: translateY(-50%);
-    position: fixed;
+    position: absolute;
     z-index: 100;
 }
+
 .icons ul {
     padding: initial;
 }
@@ -63,8 +98,10 @@ body {
     padding-left: 12px;
     padding-top: 6px;
     margin-top: 5px;
-    color: #fff;
+    color: #106544;
+    background-color: #fff;
 }
+<<<<<<< Updated upstream
 /* Carousel CSS */
  
 /* Stories.html */
@@ -81,3 +118,97 @@ body {
     background-size: cover;
     height: 5vh;
 }
+=======
+
+.icons ul li:hover {
+    background-color: #106544;
+    color: white;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 175ms;
+}
+
+.section-header {
+    color: #A3C53A;
+    margin-top: 15px;
+}
+
+.nyli-btn-primary {
+    display: flex;
+    align-items: center;
+    background-color: #A3C53A;
+    border: none;
+    border-radius: 9999px;
+}
+
+.nyli-btn-nav {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #106544;
+    border-radius: 9999px;
+    margin-left: 4px;
+}
+
+.nyli-btn-nav:hover {
+    background-color: #106544;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+.nyli-btn-primary:hover {
+    background-color: #99b334;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+.nyli-btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid silver;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+.nyli-btn-nav>* {
+    padding: 1px 6px;
+    text-decoration: none;
+    color: #106544;
+}
+
+.nyli-btn-nav:hover>* {
+    color: white;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+.nyli-btn-primary>* {
+    color: white;
+}
+
+.nyli-btn-secondary>* {
+    color: white;
+}
+
+a.btn-link {
+    padding: 6px 18px;
+    text-decoration: none;
+}
+
+a.btn-link:hover {
+    color: white;
+}
+
+.nyli-btn-secondary {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 9999px;
+}
+
+/* Carousel CSS */
+>>>>>>> Stashed changes
