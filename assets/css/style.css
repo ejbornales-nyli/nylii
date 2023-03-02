@@ -133,6 +133,12 @@ a.nav-link:hover {
     margin-top: 15px;
 }
 
+.card-text{
+    font-family: 'Agrandir Regular';
+    text-align: center;
+    font-size: 32px;
+}
+
 .nyli-btn-primary {
     display: flex;
     align-items: center;
@@ -209,3 +215,9 @@ a.btn-link:hover {
     border: 2px solid white;
     border-radius: 9999px;
 }
+
+@media (max-width: 480px) {
+    .card-text {
+      font-size: 16px;
+    }
+  }
