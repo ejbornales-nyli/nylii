@@ -1,10 +1,25 @@
+/* Fonts */
 @font-face {
     font-family: 'Agrandir Regular';
     src: url('/assets/fonts/Agrandir\ Regular.ttf') format('truetype');
 }
 
-#nav-cta {
+@font-face {
+    font-family: 'Agrandir Grand Heavy';
+    src: url('/assets/fonts/Agrandir\ Grand\ Heavy.ttf') format('truetype');
+}
+
+/* tags */
+a.nav-link {
+    color: #106544;
     font-family: 'Agrandir Regular';
+}
+
+a.nav-link:hover {
+    color: #A3C53A;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 175ms;
 }
 
 body {
@@ -20,16 +35,30 @@ hr.break {
     border-radius: 5px;
 }
 
-a.nav-link {
-    color: #106544;
-    font-family: 'Agrandir Regular';
+nav.navbar {
+    padding-top: 4.5vh;
 }
 
-a.nav-link:hover {
-    color: #A3C53A;
-    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 175ms;
+span {
+    font-family: 'Roboto';
+}
+
+span.subtitle {
+    font-family: 'Agrandir Regular';
+    font-size: 21px;
+}
+
+/* classes */
+.action-section {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+.footer {
+    background-color: #106544;
+    background-size: cover;
+    height: 25vh;
 }
 
 .hero {
@@ -42,41 +71,6 @@ a.nav-link:hover {
 
 .hero h1 {
     font-size: 64px;
-}
-
-.program-section {
-    background-color: white;
-    background-size: cover;
-    height: 100vh;
-}
-
-.impact-section {
-    background-color: white;
-    background-size: cover;
-    height: 100vh;
-}
-
-.action-section {
-    background-color: white;
-    background-size: cover;
-    height: 100vh;
-}
-
-.title {
-    font-family: Roboto, sans-serif;
-    color: white;
-}
-
-.subtitle {
-    font-family: Roboto, sans-serif;
-    color: white;
-    font-size: medium;
-}
-
-.footer {
-    background-color: #106544;
-    background-size: cover;
-    height: 25vh;
 }
 
 .icons {
@@ -101,6 +95,41 @@ a.nav-link:hover {
     color: #a3c53a;
     background-color: #fff;
 }
+
+.icons ul li:hover {
+    background-color: #a3c53a;
+    color: white;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 175ms;
+}
+
+.impact-section {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-line {
+    background-color: skyblue;
+    background-size: cover;
+    height: 4.5vh;
+    width: 100%;
+    position: fixed;
+    top: -9px;
+}
+
+.program-section {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title {
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
 /* Carousel CSS */
  
 /* stories.html */
@@ -111,26 +140,11 @@ a.nav-link:hover {
     height: 50vh;
 }
 
-.header-line {
-    background-color: skyblue;
-    background-size: cover;
-    height: 4.5vh;
-    width: 100%;
-    position: relative;
-    top: -8px;
-}
-
-.icons ul li:hover {
-    background-color: #a3c53a;
-    color: white;
-    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 175ms;
-}
-
 .section-header {
     color: #A3C53A;
     margin-top: 15px;
+    font-family: 'Agrandir Grand Heavy';
+    text-transform: uppercase;
 }
 
 .card-text{
@@ -139,7 +153,22 @@ a.nav-link:hover {
     font-size: 32px;
 }
 
-.nyli-btn-primary {
+.nyli-btn-primary-light>*,
+.nyli-btn-primary-dark>*,
+.nyli-btn-secondary-dark>* {
+    font-family: 'Agrandir Regular';
+    text-decoration: none;
+}
+
+.nyli-btn-primary-light>*,
+.nyli-btn-primary-dark>*,
+.nyli-btn-secondary-dark>* {
+    color: white;
+    text-decoration: none;
+    padding: 6px 18px;
+}
+
+.nyli-btn-primary-light {
     display: flex;
     align-items: center;
     background-color: #A3C53A;
@@ -147,30 +176,43 @@ a.nav-link:hover {
     border-radius: 9999px;
 }
 
-.nyli-btn-nav {
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-    border: 2px solid #106544;
-    border-radius: 9999px;
-    margin-left: 4px;
+.fix:hover>* {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.nyli-btn-nav:hover {
-    background-color: #106544;
+.nyli-btn-primary-light:hover {
+    background-color: transparent;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid #333434;
+    padding: 0px 4px;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
 }
 
-.nyli-btn-primary:hover {
+.nyli-btn-primary-light:hover>* {
+    color: #333434;
+}
+
+.nyli-btn-primary-dark {
+    display: flex;
+    align-items: center;
+    background-color: #A3C53A;
+    border: none;
+    border-radius: 9999px;
+}
+
+.nyli-btn-primary-dark:hover {
     background-color: #99b334;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
 }
 
-.nyli-btn-secondary:hover {
+.nyli-btn-secondary-dark:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid silver;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -178,37 +220,7 @@ a.nav-link:hover {
     transition-duration: 300ms;
 }
 
-.nyli-btn-nav>* {
-    padding: 1px 6px;
-    text-decoration: none;
-    color: #106544;
-}
-
-.nyli-btn-nav:hover>* {
-    color: white;
-    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 300ms;
-}
-
-.nyli-btn-primary>* {
-    color: white;
-}
-
-.nyli-btn-secondary>* {
-    color: white;
-}
-
-a.btn-link {
-    padding: 6px 18px;
-    text-decoration: none;
-}
-
-a.btn-link:hover {
-    color: white;
-}
-
-.nyli-btn-secondary {
+.nyli-btn-secondary-dark {
     display: flex;
     align-items: center;
     background-color: transparent;
