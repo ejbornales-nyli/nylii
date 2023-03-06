@@ -27,6 +27,22 @@ body {
     margin: 0;
 }
 
+.footer-icons a {
+    color: white;
+    text-decoration: none;
+}
+
+div.footer-column {
+    padding: 0px;
+}
+
+footer {
+    background-color: #106544;
+    background-size: cover;
+    height: 45vh;
+    color: white;
+}
+
 hr.break {
     display: block;
     width: 3rem;
@@ -43,9 +59,32 @@ span {
     font-family: 'Roboto';
 }
 
+span.footer-info {
+    font-size: 14px;
+    margin-left: 1.75rem;
+}
+
 span.subtitle {
     font-family: 'Agrandir Regular';
     font-size: 21px;
+}
+
+/* id */
+#divider {
+    border-top: 2px solid white;
+    padding-top: 4px;
+}
+
+#footer-column-1 {
+    position: relative;
+    left: -2rem;
+}
+
+#social-media {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 0.75rem;
+    font-family: 'Roboto';
 }
 
 /* classes */
@@ -55,10 +94,18 @@ span.subtitle {
     height: 100vh;
 }
 
-.footer {
-    background-color: #106544;
-    background-size: cover;
-    height: 25vh;
+.footer-link {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color:white;
+    text-decoration: none;
+}
+
+.footer-text {
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: white;
+    text-decoration: none;
 }
 
 .hero {
