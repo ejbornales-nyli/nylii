@@ -22,9 +22,27 @@ a.nav-link:hover {
     transition-duration: 175ms;
 }
 
+h3 {
+    padding-bottom: 1rem;
+}
+
+span.nav-link {
+    color: #A3C53A;
+    font-family: 'Agrandir Regular';
+}
+
+span.nav-link:hover {
+    color: #A3C53A;
+}
+
 body {
     padding: 0;
     margin: 0;
+}
+
+p {
+    font-family: 'Roboto';
+    padding-bottom: 3rem;
 }
 
 .footer-icons a {
@@ -88,7 +106,7 @@ span.subtitle {
 .footer-link {
     font-size: 14px;
     font-family: 'Roboto';
-    color:white;
+    color: white;
     text-decoration: none;
 }
 
@@ -142,11 +160,11 @@ span.subtitle {
     transition-duration: 175ms;
 }
 
-.impact-icon{
+.impact-icon {
     color: #006443;
 }
 
-.impact-desc{
+.impact-desc {
     text-align: center;
     font-size: 24px;
 }
@@ -168,8 +186,61 @@ span.subtitle {
 
 .program-section {
     background-color: white;
+}
+
+.project {
+    background-image: url('../images/placeholder.png');
     background-size: cover;
-    height: 100vh;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 17.5rem;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 6rem;
+}
+
+.project-content {
+    padding: 0rem 1.25rem;
+    color: white;
+    position: relative;
+    bottom: 100px;
+}
+
+.project-content p {
+    padding: 0;
+}
+
+
+.project-content * {
+    opacity: 0;
+    color: white;
+}
+
+.project:hover * {
+    opacity: 1;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.project-gradient {
+    height: 100%;
+    position: relative;
+}
+
+.project-gradient::before {
+    content: '';
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0;
+    transition: height 0.35s ease-out;
+    background: linear-gradient(to bottom, transparent 55%, #333434 100%);
+    border-radius: 15px;
+}
+
+.project-gradient:hover::before {
+    height: 100%;
 }
 
 .section-header-dark {
@@ -184,7 +255,7 @@ span.subtitle {
 }
 
 /* Carousel CSS */
- 
+
 /* stories.html */
 
 .header {
@@ -216,13 +287,12 @@ span.subtitle {
     margin-top: 2rem;
 }
 
-
 .section-header-dark hr {
     background-color: #A3C53A;
     border: 2px solid #A3C53A;
 }
 
-.card-text{
+.card-text {
     font-family: 'Agrandir Regular';
     text-align: center;
     font-size: 32px;
@@ -260,6 +330,22 @@ span.subtitle {
     padding: 7px 21px;
 }
 
+.nyli-btn-nav-current {
+    background-color: transparent;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid #333434;
+    border-radius: 9999px;
+}
+
+.nyli-btn-nav-current>* {
+    color: #333434;
+    font-family: 'Agrandir Regular';
+    text-decoration: none;
+    padding: 6px 19px;
+}
+
 .nyli-btn-primary-light>*,
 .nyli-btn-primary-dark>*,
 .nyli-btn-secondary-dark>* {
@@ -288,7 +374,7 @@ span.subtitle {
 }
 
 .nyli-btn-primary-light:hover>* {
-    padding: 6px 22px;
+    padding: 6.025px 22px;
 }
 
 .nyli-btn-primary-dark:hover {
@@ -310,9 +396,10 @@ span.subtitle {
 
 @media (max-width: 480px) {
     .card-text {
-      font-size: 16px;
+        font-size: 16px;
     }
-    .impact-desc{
+
+    .impact-desc {
         font-size: 14px;
     }
-  }
+}

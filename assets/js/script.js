@@ -1,6 +1,6 @@
 // Impact Section Counter Animation
 let ValueDisplays = document.querySelectorAll(".num");
-let interval = -5000
+let interval = 0
 
 ValueDisplays.forEach((ValueDisplay) => {
   let StartValue = 0;
