@@ -254,6 +254,24 @@ span.subtitle {
     color: white;
 }
 
+.volunteer-desc{
+    margin-left: 50%;
+    margin-right: 13%;
+    line-height: 1.5rem;
+}
+
+.impact-desc,.impact-counter{
+    font-family: Roboto, sans-serif;
+}
+
+.impact-desc{
+    font-size: 16px;
+}
+
+.stat-section{
+    margin-top: 4rem;
+}
+
 /* Carousel CSS */
 
 /* stories.html */
@@ -295,7 +313,7 @@ span.subtitle {
 .card-text {
     font-family: 'Agrandir Regular';
     text-align: center;
-    font-size: 32px;
+    font-size: 25px;
 }
 
 .nyli-btn-nav,
@@ -394,12 +412,30 @@ span.subtitle {
 
 /* media queries */
 
-@media (max-width: 480px) {
-    .card-text {
-        font-size: 16px;
+@media screen and (max-width: 600px) {
+    .card-text{
+      font-size: 16px;
+    }
+
+    .volunteer-desc {
+        margin-left: 13%;
+        margin-right: 13%;
+        line-height: 1.5rem;
+        margin-top: 0;
+    }
+
+    .impact-icon{
+        font-size: 8px;
+    }
+
+    .stat-section{
+        margin-top: 0;
     }
 
     .impact-desc {
-        font-size: 14px;
+        font-size: 12px;
     }
-}
+
+  }
+
+    
