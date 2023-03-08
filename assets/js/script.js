@@ -113,3 +113,38 @@ window.addEventListener('scroll', function (event) {
 // window.addEventListener('scroll', startCounters, {
 //   once: true
 // });
+
+window.addEventListener('scroll', startCounters, {
+  once: true
+});
+
+
+//About us section link
+// Get all section links
+const sectionLinks = document.querySelectorAll('.section-link');
+
+// Loop through each link and add a click event listener
+sectionLinks.forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault(); // Prevent default link behavior
+    const sectionId = link.getAttribute('href'); // Get the href attribute value
+    const section = document.querySelector(sectionId); // Get the section element
+    const activeSection = document.querySelector('.section.active'); // Get the currently active section
+
+    // Remove active class from currently active section, if any
+    if (activeSection) {
+      activeSection.classList.remove('active');
+    }
+
+    // Remove active class from currently active link, if any
+    const activeLink = document.querySelector('.section-link.active');
+    if (activeLink) {
+      activeLink.classList.remove('active');
+    }
+
+    // Add active class to clicked section and link
+    section.classList.add('active');
+    link.classList.add('active');
+  });
+});
+
