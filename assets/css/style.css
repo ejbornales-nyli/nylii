@@ -25,13 +25,14 @@ a.nav-link:hover {
 div.card {
 	border: none;
 }
+
 td {
-    padding: 40px;
+	padding: 40px;
 }
 
 .image {
-    width: 250px;
-    height: 250px;
+	width: 250px;
+	height: 250px;
 }
 
 h3 {
@@ -109,52 +110,65 @@ span.subtitle {
 }
 
 .section {
-    display: none;
+	display: none;
 }
 
-.section.active{
-    display: block;
+.section.active {
+	display: block;
 }
 
-.sidebar ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
-.sidebar li{
-    margin-bottom:10px;
+.sidebar li {
+	margin-bottom: 10px;
 }
+
 
 .section-link a,
-.section-link button{
-    border-radius: 10px;
-    border: #fff;
-    border-style: solid;    
-    width: 10rem;
+.section-link button {
+	border-radius: 10px;
+	border: 2px solid #006442;
+	font-family: "Agrandir Regular";
+	width: 15rem;
 }
 
 .section-link,
 .section-link button {
-  color: white; /* Default color for inactive links */
-  background-color: #333434;
+	color: white;
+	/* Default color for inactive links */
+	background-color: #333434;
+	border-radius: 20px;
+	padding: 7px 0;
+	transition: 0.3s;
 }
 
 .section-link:not(.active),
 .section-link:not(.active) button {
-    color: white; /* Default color for inactive links */
-    background-color: #333434;
+	color: #006442;
+	/* Default color for inactive links */
+	background-color: white;
+	border-color: #006442;
 }
 
 .section-link.active,
 .section-link.active button {
-    color: white; /* Default color for inactive links */
-    background-color: #006443;
+	color: white;
+	/* Default color for inactive links */
+	background-color: #006442;
 }
 
-.sidebar a{
-    text-decoration: none;
+.sec-col{
+	text-align: center;
 }
+
+.sidebar a {
+	text-decoration: none;
+}
+
 /* id */
 #divider {
 	border-top: 2px solid white;
@@ -175,14 +189,14 @@ span.subtitle {
 
 /* Contact Page */
 .contact-form {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right bottom;
 }
 
 .bg-lightgray {
-    background-color: #D9D9D9;
-    border-radius: 15px;
+	background-color: #D9D9D9;
+	border-radius: 15px;
 }
 
 /* classes */
@@ -562,22 +576,21 @@ div.program:focus .pre-content {
     width: 100%;
 }
 
-.filter-content .dropdown{
-    align-self: left;
+.filter-content .dropdown {
+	align-self: left;
 }
 
-.search-form {
-    display: inline-flex;
+.search {
+	display: inline-flex;
 }
 
 .search-field {
-    border: 1px solid gray;
-    border-radius: 100px;
-    margin-right: 10px;
+	border: 1px solid gray;
+	border-radius: 100px;
 }
 
 .search-field .search-icon {
-    padding: 10px;
+	padding: 10px;
 }
 
 /* media queries */
@@ -604,6 +617,10 @@ div.program:focus .pre-content {
 
 	.impact-desc {
 		font-size: 12px;
+	}
+
+	.pre-content h4 {
+		font-size: 16px;
 	}
 
 }
