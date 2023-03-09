@@ -1,12 +1,13 @@
 // Impact Section Counter Animation
 const ValueDisplays = document.querySelectorAll(".num");
+const element = document.querySelector('.stat-section');
 
 const startCounters = () => {
   ValueDisplays.forEach((ValueDisplay) => {
     const updateCount = () => {
       const StartValue = parseInt(ValueDisplay.textContent);
       const EndValue = parseInt(ValueDisplay.getAttribute("data-val"));
-      const duration = Math.ceil(EndValue*0.008);
+      const duration = Math.ceil(EndValue * 0.00125);
       if (StartValue < EndValue) {
         ValueDisplay.textContent = StartValue + duration;
         setTimeout(updateCount, 1);
@@ -17,6 +18,59 @@ const startCounters = () => {
     updateCount();
   });
 }
+
+function isInViewport(element) {
+  // Get the bounding client rectangle position in the viewport
+  var bounding = element.getBoundingClientRect();
+  
+  // Checking part. Here the code checks if it's *fully* visible
+  // Edit this part if you just want a partial visibility
+  if (
+      bounding.top >= 0 &&
+      bounding.left >= 0 &&
+      bounding.right <= (window.innerWidth || document.documentElement.clientWidth) &&
+      bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+  ) {
+      console.log('In the viewport! :)');
+      return true;
+  } else {
+      console.log('Not in the viewport. :(');
+      return false;
+  }
+}
+
+window.addEventListener('scroll', function (event) {
+  if (isInViewport(element)) {
+    startCounters();
+  }
+}, false);
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   const articleContainers = document.querySelectorAll('.program-content');
+
+//   articleContainers.forEach(function(container) {
+//       container.addEventListener('mouseover', function() {
+//           const preContent = this.querySelector('.pre-content');
+//           preContent.style.transform = 'scale(1.2)';
+//       });
+
+//       container.addEventListener('mouseout', function() {
+//         const preContent = this.querySelector('.pre-content');
+//         preContent.style.transform = 'scale(1)';
+//     });
+
+//       container.addEventListener('mouseover', function() {
+//           const postContent = this.querySelector('.post-content');
+//           postContent.style.transform = 'scale(0.85)';
+//       });
+//   });
+// });
+
+
+// On the first scroll in this window, call the function to start the counters
+// window.addEventListener('scroll', startCounters, {
+//   once: true
+// });
 
 // let ValueDisplays = document.querySelectorAll(".num");
 // let interval = 0
@@ -56,6 +110,41 @@ const startCounters = () => {
 // }
 
 // On the first scroll in this window, call the function to start the counters
+// window.addEventListener('scroll', startCounters, {
+//   once: true
+// });
+
 window.addEventListener('scroll', startCounters, {
   once: true
 });
+
+
+//About us section link
+// Get all section links
+const sectionLinks = document.querySelectorAll('.section-link');
+
+// Loop through each link and add a click event listener
+sectionLinks.forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault(); // Prevent default link behavior
+    const sectionId = link.getAttribute('href'); // Get the href attribute value
+    const section = document.querySelector(sectionId); // Get the section element
+    const activeSection = document.querySelector('.section.active'); // Get the currently active section
+
+    // Remove active class from currently active section, if any
+    if (activeSection) {
+      activeSection.classList.remove('active');
+    }
+
+    // Remove active class from currently active link, if any
+    const activeLink = document.querySelector('.section-link.active');
+    if (activeLink) {
+      activeLink.classList.remove('active');
+    }
+
+    // Add active class to clicked section and link
+    section.classList.add('active');
+    link.classList.add('active');
+  });
+});
+
