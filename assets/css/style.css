@@ -426,6 +426,33 @@ span.subtitle {
     transition-duration: 300ms;
 }
 
+/* publications */
+
+.filter-content {
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.filter-content .dropdown{
+    align-self: left;
+}
+
+.search {
+    display: inline-flex;
+}
+
+.search-field {
+    border: 1px solid gray;
+    border-radius: 100px;
+}
+
+.search-field .search-icon {
+    padding: 10px;
+}
+
 /* media queries */
 
 @media screen and (max-width: 600px) {
