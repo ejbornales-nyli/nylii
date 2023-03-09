@@ -557,19 +557,21 @@ div.program:focus .pre-content {
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
+    width: 100%;
 }
 
 .filter-content .dropdown{
     align-self: left;
 }
 
-.search {
+.search-form {
     display: inline-flex;
 }
 
 .search-field {
     border: 1px solid gray;
     border-radius: 100px;
+    margin-right: 10px;
 }
 
 .search-field .search-icon {

@@ -58,22 +58,23 @@
 	<section class="program-section">
 		<div class="container h-100 d-flex flex-column p-5">
 			<div class="filter-content">
-				<select class="form-control dropdown" style="width: 300px;">
+				<select class="form-control dropdown" style="width: 300px; float: left;">
                     <option value="all">All</option>
                     <option value="category1">Category 1</option>
                     <option value="category2">Category 2</option>
                     <option value="category3">Category 3</option>
                 </select>
-				<div class="search">
-					<form action="#">
-						<div class="search-field">
-							<span class="fa fa-search search-icon"></span>
-							<input type="text"
-								placeholder=" Search Courses"
-								name="search" style="border: 0; outline: none;" autofocus autocomplete="off">
-						</div>
-					</form>
-				</div>
+				<form class="search-form" action="#" style="float: inline-end;">
+					<div class="search-field">
+						<span class="fa fa-search search-icon"></span>
+						<input type="text"
+							placeholder="search"
+							name="search" style="border: 0; outline: none; margin-right: 7px;" autofocus autocomplete="off">
+					</div>
+					<button type="button" class="nyli-btn-nav ms-2">
+						<a id="nav-cta">Search</a>
+					</button>
+				</form>
 			</div>
 		</div>
 	</section>
