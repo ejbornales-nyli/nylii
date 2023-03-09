@@ -36,7 +36,6 @@ td {
 
 h3 {
 	font-family: 'Agrandir Grand Heavy';
-	padding-bottom: 1rem;
 }
 
 h4 {
@@ -72,7 +71,6 @@ div.card-img-overlay {
 
 p {
 	font-family: 'Roboto';
-	padding-bottom: 3rem;
 }
 
 .footer-icons a {
@@ -556,8 +554,31 @@ div.program:focus .pre-content {
 
 /* publications */
 
+.program-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dropdown {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px; 
+    outline-color: #006443;
+    border-color: #006443;
+    width: 300px;
+    float: left;
+    color: #006443;
+    font-weight: 450;
+}
+
+.dropdown .option-link{
+    color: #006443;
+    font-weight: 450;
+}
+
 .filter-content {
-    display: inline-flex;
     padding: 10px;
     align-items: center;
     margin-left: 20px;
@@ -582,6 +603,72 @@ div.program:focus .pre-content {
 .search-field .search-icon {
     padding: 10px;
 }
+
+.publication-content{
+    margin-top: 70px;
+}
+
+.content-list {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.content-list img{
+    width: 100%;
+    height: auto;
+}
+
+.header-title-main h3{
+    font-size: 20px;
+    color: #006443;
+    font-family: 'Roboto';
+    margin-bottom: 0px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.header-title-main p{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #939598;
+    padding-bottom: 10px;
+}
+
+.pagination {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  
+  .pagination a {
+    background-color: #99b334;
+    color:white;
+    float: left;
+    padding: 6px 14px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 2px;
+    cursor: pointer;
+  }
+
+  .pagination a.active {
+    background-color: white;
+    color: #006443;
+    border: 1px solid #99b334;
+  }
+
+ .pagination a.next {
+    margin-left: 15px;
+  }
+  .pagination a.prev {
+    margin-right: 15px;
+  }
+
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  
 
 /* media queries */
 
