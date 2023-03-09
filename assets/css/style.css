@@ -126,7 +126,8 @@ span.subtitle {
     margin-bottom:10px;
 }
 
-.section-link a,button{
+.section-link a,
+.section-link button{
     border-radius: 10px;
     border: #fff;
     border-style: solid;    
@@ -460,6 +461,7 @@ div.program:focus .pre-content {
 .nyli-btn-primary-light {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	background-color: #A3C53A;
 	border: none;
 	border-radius: 9999px;
@@ -547,6 +549,35 @@ div.program:focus .pre-content {
 	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	transition-duration: 300ms;
+}
+
+/* publications */
+
+.filter-content {
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.filter-content .dropdown{
+    align-self: left;
+}
+
+.search-form {
+    display: inline-flex;
+}
+
+.search-field {
+    border: 1px solid gray;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.search-field .search-icon {
+    padding: 10px;
 }
 
 /* media queries */
