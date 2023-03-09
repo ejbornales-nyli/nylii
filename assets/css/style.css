@@ -126,7 +126,8 @@ span.subtitle {
     margin-bottom:10px;
 }
 
-.section-link a,button{
+.section-link a,
+.section-link button{
     border-radius: 10px;
     border: #fff;
     border-style: solid;    
@@ -460,6 +461,7 @@ div.program:focus .pre-content {
 .nyli-btn-primary-light {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	background-color: #A3C53A;
 	border: none;
 	border-radius: 9999px;
