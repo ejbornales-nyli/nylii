@@ -517,7 +517,7 @@ div.program:focus .pre-content {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	border: 2px solid #333434;
+	border: 1px solid #333434;
 	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	transition-duration: 300ms;
@@ -570,11 +570,7 @@ div.program:focus .pre-content {
     float: left;
     color: #006443;
     font-weight: 450;
-}
-
-.dropdown .option-link{
-    color: #006443;
-    font-weight: 450;
+	cursor: pointer;
 }
 
 .filter-content {
@@ -616,6 +612,7 @@ div.program:focus .pre-content {
     width: 100%;
     height: 300px;
     object-fit: cover;
+	cursor: pointer;
 }
 
 .header-title-main h3{
@@ -635,40 +632,40 @@ div.program:focus .pre-content {
     padding-bottom: 10px;
 }
 
-.pagination {
+#pagination-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+	margin-bottom: 40px;
+}
+#pagination-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination-btn {
     display: inline-block;
-    margin-top: 40px;
-    margin-bottom: 80px;
-  }
-  
-  .pagination a {
-    background-color: #99b334;
-    color:white;
-    float: left;
-    padding: 6px 14px;
+    padding: 5px 14px;
+    margin: 0 3px;
+    border: 1px solid #a3c53a;
+	background-color: #a3c53a;
     text-decoration: none;
-    transition: background-color .3s;
-    border: 1px solid #ddd;
-    margin: 2px;
-    cursor: pointer;
-  }
+    color: white;
+}
 
-  .pagination a.active {
+.pagination-btn:hover {
     background-color: white;
-    color: #006443;
-    border: 1px solid #99b334;
-  }
+    color: #a3c53a;
+    border-color: #a3c53a;
+}
 
- .pagination a.next {
-    margin-left: 15px;
-  }
-  .pagination a.prev {
-    margin-right: 15px;
-  }
-
-  .pagination a:hover:not(.active) {background-color: #ddd;}
-
-  
+.pagination-btn.active {
+    background-color: white;
+    color: #a3c53a;
+    border-color: #a3c53a;
+}
 
 /* media queries */
 
