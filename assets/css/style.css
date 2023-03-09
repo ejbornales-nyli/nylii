@@ -612,7 +612,8 @@ div.program:focus .pre-content {
 
 .content-list img{
     width: 100%;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
 }
 
 .header-title-main h3{
