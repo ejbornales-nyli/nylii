@@ -164,6 +164,22 @@ span.subtitle {
 	font-family: 'Roboto';
 }
 
+/* Contact Page */
+.contact-form {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.bg-lightgray {
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+
+.btn-light-green {
+    background-color: #A3C53A;
+}
+
 /* classes */
 .action-section {
 	background-color: white;
