@@ -183,7 +183,20 @@ span.subtitle {
 .btn-light-green {
 	background-color: #A3C53A;
 }
-
+/* Partners */
+.fade-up {
+	opacity: 0;
+	transform: translateY(50px);
+	animation: fadeUp 1s ease forwards;
+  }
+  
+  @keyframes fadeUp {
+	100% {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
 /* classes */
 .action-section {
 	background-color: white;
