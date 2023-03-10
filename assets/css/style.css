@@ -426,25 +426,25 @@ div.program-content {
 }
 
 #ewd {
-	background-image: url("../images/cat1.webp");
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("../images/cat1.webp");
 	background-size: cover;
 	background-position: center;
 }
 
 #ecs {
-	background-image: url("../images/cat2.webp");
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("../images/cat2.webp");
 	background-size: cover;
 	background-position: center;
 }
 
 #cce {
-	background-image: url("../images/cat3.webp");
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("../images/cat3.webp");
 	background-size: cover;
 	background-position: center;
 }
 
 #ac {
-	background-image: url("../images/cat4.webp");
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("../images/cat4.webp");
 	background-size: cover;
 	background-position: center;
 }
