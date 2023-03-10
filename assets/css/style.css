@@ -26,6 +26,7 @@ div.card {
 	border: none;
 }
 
+
 h3 {
 	font-family: 'Agrandir Grand Heavy';
 }
@@ -177,7 +178,24 @@ span.subtitle {
 .btn-light-green {
     background-color: #A3C53A;
 }
-
+/* Partners Animation */
+.animate {
+	animation-name: fadeInUp;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+  }
+  
+  @keyframes fadeInUp {
+	from {
+	  opacity: 0;
+	  transform: translateY(50px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
 /* classes */
 .action-section {
 	background-color: white;
