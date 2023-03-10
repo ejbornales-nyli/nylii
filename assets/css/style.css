@@ -187,7 +187,7 @@ span.subtitle {
 .fade-up {
 	opacity: 0;
 	transform: translateY(50px);
-	animation: fadeUp 1s ease forwards;
+	animation: fadeUp 2s ease forwards;
   }
   
   @keyframes fadeUp {
