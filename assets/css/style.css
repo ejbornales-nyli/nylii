@@ -196,7 +196,9 @@ span.subtitle {
 	  transform: translateY(0);
 	}
   }
-  
+  .animate:hover {
+	transform: scale(1.2);
+}
 /* classes */
 .action-section {
 	background-color: white;
