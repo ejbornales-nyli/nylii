@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>NYLI</title>
-	<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
@@ -90,7 +90,7 @@
 							<p>January 24, 2023</p>
 						</div>
 						<button type="button" class="nyli-btn-nav">
-							<a id="nav-cta">Search</a>
+							<a id="nav-cta" href="story-article.html">Read more</a>
 						</button>
 					</div>
 					<div class="content-list col-4">
@@ -147,15 +147,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="pagination justify-content-center">
-				<a class="prev">&laquo;</a>
-				<a >1</a>
-				<a class="active">2</a>
-				<a >3</a>
-				<a >4</a>
-				<a >5</a>
-				<a >6</a>
-				<a class="next">&raquo;</a>
+			<div id="pagination-container">
+				<ul id="pagination-list"></ul>
 			</div>
 		</div>
 	</section>
@@ -245,6 +238,7 @@
 	<script src="/assets/bootstrap/js/bootstrap.js"></script>
 	<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/assets/js/script.js"></script>
+	<script src="/assets/js/pagination.js"></script>
 </body>
 
 </html>

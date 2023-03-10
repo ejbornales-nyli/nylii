@@ -299,13 +299,12 @@ span.subtitle {
 	padding: 0rem 1.25rem;
 	color: white;
 	position: relative;
-	bottom: 100px;
+	bottom: -180px;
 }
 
 .project-content p {
 	padding: 0;
 }
-
 
 .project-content * {
 	opacity: 0;
@@ -423,7 +422,7 @@ div.program-content {
 	height: 100%;
 	font-family: 'Agrandir Regular';
 	padding: 1rem;
-	background-image: url("../images/default.png");
+	background-image: url("../images/cat.png");
 	background-size: cover;
 	background-position: center;
 	border-radius: 10px;
@@ -571,11 +570,7 @@ div.program:focus .pre-content {
     float: left;
     color: #006443;
     font-weight: 450;
-}
-
-.dropdown .option-link{
-    color: #006443;
-    font-weight: 450;
+	cursor: pointer;
 }
 
 .filter-content {
@@ -615,7 +610,9 @@ div.program:focus .pre-content {
 
 .content-list img{
     width: 100%;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
+	cursor: pointer;
 }
 
 .header-title-main h3{
@@ -635,40 +632,52 @@ div.program:focus .pre-content {
     padding-bottom: 10px;
 }
 
-.pagination {
+#pagination-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+	margin-bottom: 40px;
+}
+#pagination-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination-btn {
     display: inline-block;
-    margin-top: 40px;
-    margin-bottom: 80px;
-  }
-  
-  .pagination a {
-    background-color: #99b334;
-    color:white;
-    float: left;
-    padding: 6px 14px;
+    padding: 5px 14px;
+    margin: 0 3px;
+    border: 1px solid #a3c53a;
+	background-color: #a3c53a;
     text-decoration: none;
-    transition: background-color .3s;
-    border: 1px solid #ddd;
-    margin: 2px;
-    cursor: pointer;
-  }
+    color: white;
+}
 
-  .pagination a.active {
+.pagination-btn:hover {
     background-color: white;
-    color: #006443;
-    border: 1px solid #99b334;
-  }
+    color: #a3c53a;
+    border-color: #a3c53a;
+}
 
- .pagination a.next {
-    margin-left: 15px;
-  }
-  .pagination a.prev {
-    margin-right: 15px;
-  }
+.pagination-btn.active {
+    background-color: white;
+    color: #a3c53a;
+    border-color: #a3c53a;
+}
 
-  .pagination a:hover:not(.active) {background-color: #ddd;}
-
-  
+.subheader{
+	color: #333434;
+	font-size: 28px;
+	font-family: 'Agrandir Regular';
+}
+.author{
+	color: #333434;
+	font-size: 20px;
+	font-family: Roboto, regular;
+	padding-top: 15px;
+}
 
 /* media queries */
 
