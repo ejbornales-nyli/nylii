@@ -45,80 +45,6 @@ window.addEventListener('scroll', function (event) {
   }
 }, false);
 
-// document.addEventListener('DOMContentLoaded', function() {
-//   const articleContainers = document.querySelectorAll('.program-content');
-
-//   articleContainers.forEach(function(container) {
-//       container.addEventListener('mouseover', function() {
-//           const preContent = this.querySelector('.pre-content');
-//           preContent.style.transform = 'scale(1.2)';
-//       });
-
-//       container.addEventListener('mouseout', function() {
-//         const preContent = this.querySelector('.pre-content');
-//         preContent.style.transform = 'scale(1)';
-//     });
-
-//       container.addEventListener('mouseover', function() {
-//           const postContent = this.querySelector('.post-content');
-//           postContent.style.transform = 'scale(0.85)';
-//       });
-//   });
-// });
-
-
-// On the first scroll in this window, call the function to start the counters
-// window.addEventListener('scroll', startCounters, {
-//   once: true
-// });
-
-// let ValueDisplays = document.querySelectorAll(".num");
-// let interval = 0
-
-// ValueDisplays.forEach((ValueDisplay) => {
-//   let StartValue = 0;
-//   let EndValue = parseInt(ValueDisplay.getAttribute("data-val"));
-//   let duration = Math.floor(interval / EndValue);
-//   let counter = setInterval(function(){
-//       StartValue += 1;
-//       ValueDisplay.textContent = StartValue;
-//       if(StartValue == EndValue){
-//         clearInterval(counter);
-//       }
-//   }, duration);
-// });
-
-// const counters = document.querySelectorAll(".count");
-// const speed = 200;
-
-// // The code to start the animation is now wrapped in a function
-// const startCounters = () => {
-//   counters.forEach((counter) => {
-//     const updateCount = () => {
-//       const target = parseInt(+counter.getAttribute("data-target"));
-//       const count = parseInt(+counter.innerText);
-//       const increment = Math.trunc(target / speed);
-//       if (count < target) {
-//         counter.innerText = count + increment;
-//         setTimeout(updateCount, 1);
-//       } else {
-//         count.innerText = target;
-//       }
-//     };
-//     updateCount();
-//   });
-// }
-
-// On the first scroll in this window, call the function to start the counters
-// window.addEventListener('scroll', startCounters, {
-//   once: true
-// });
-
-window.addEventListener('scroll', startCounters, {
-  once: true
-});
-
-
 //About us section link
 // Get all section links
 const sectionLinks = document.querySelectorAll('.section-link');
@@ -145,6 +71,29 @@ sectionLinks.forEach(link => {
     // Add active class to clicked section and link
     section.classList.add('active');
     link.classList.add('active');
+  });
+});
+
+const projects = document.querySelectorAll('.project');
+
+// Loop through each project element
+projects.forEach((project) => {
+  // Get the project gradient element
+  const gradient = project.querySelector('.project-gradient');
+
+  // Calculate the threshold for when the gradient should appear (in pixels)
+  const threshold = project.offsetTop - window.innerHeight + 100;
+
+  // Add a scroll event listener to the window
+  window.addEventListener('scroll', () => {
+    // Check if the user has scrolled past the threshold
+    if (window.scrollY > threshold) {
+      // Add the 'show' class to the gradient element
+      gradient.classList.add('show');
+    } else {
+      // Remove the 'show' class from the gradient element
+      gradient.classList.remove('show');
+    }
   });
 });
 
