@@ -25,14 +25,7 @@ a.nav-link:hover {
 div.card {
 	border: none;
 }
-td {
-    padding: 40px;
-}
 
-.image {
-    width: 250px;
-    height: 250px;
-}
 
 h3 {
 	font-family: 'Agrandir Grand Heavy';
@@ -185,7 +178,24 @@ span.subtitle {
 .btn-light-green {
     background-color: #A3C53A;
 }
-
+/* Partners Animation */
+.animate {
+	animation-name: fadeInUp;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+  }
+  
+  @keyframes fadeInUp {
+	from {
+	  opacity: 0;
+	  transform: translateY(50px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
 /* classes */
 .action-section {
 	background-color: white;
@@ -517,7 +527,7 @@ div.program:focus .pre-content {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	border: 1px solid #333434;
+	border: 2px solid #333434;
 	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	transition-duration: 300ms;
