@@ -36,135 +36,57 @@
 
 	<section class="partner-section">
 		<div class="container text-center">
-		  <h2 class="section-header-light"></h2>
-		  <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet consectetur sapien. Nam sodales tempus enim vitae vulputate. Cras luctus sed ligula vitae vehicula.</p>
-		  <div class="row justify-content-center fade-up">
-			<div class="col-sm-3">
-			  <img src="assets/images/Consuelo.png" class="img-fluid animate">
+			<h2 class="section-header-light"></h2>
+			<p class="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet consectetur sapien. Nam sodales tempus enim vitae vulputate. Cras luctus sed ligula vitae vehicula.</p>
+			<div class="row justify-content-center fade-up">
+				<div class="col-sm-3">
+					<img src="assets/images/Consuelo.png" class="img-fluid animate">
+				</div>
+				<div class="col-sm-3">
+					<img src="assets/images/RepublicOfGermany.png" class="img-fluid animate">
+				</div>
+				<div class="col-sm-3">
+					<img src="assets/images/GermanCooperation.png" class="img-fluid animate">
+				</div>
+				<div class="col-sm-3">
+					<img src="assets/images/BacolodSeal.png" class="img-fluid animate">
+				</div>
 			</div>
-			<div class="col-sm-3">
-			  <img src="assets/images/RepublicOfGermany.png" class="img-fluid animate">
-			</div>
-			<div class="col-sm-3">
-			  <img src="assets/images/GermanCooperation.png" class="img-fluid animate">
-			</div>
-			<div class="col-sm-3">
-			  <img src="assets/images/BacolodSeal.png" class="img-fluid animate">
-			</div>
-		</div>
-		
-		<div class="row justify-content-center fade-up">
-			<div class="col-sm-3">
-			  <img src="assets/images/SK.png" class="img-fluid animate">
-			</div>
-			<div class="col-sm-3">
-			  <img src="assets/images/OracleNetSuite.png" class="img-fluid animate">
-			</div>
-			<div class="col-sm-3">
-			  <img src="assets/images/Gilead.png" class="img-fluid animate">
-			</div>
-			<div class="col-sm-3">
-			  <img src="assets/images/Kaisahan.png" class="img-fluid animate">
-			</div>
-		</div>
-		
-		<div class="row justify-content-center fade-up">
-			<div class="col-sm-3">
-			  <img src="assets/images/GoJust.png" class="img-fluid animate">
-			</div>
-			<div class="col-sm-3">
-			  <img src="assets/images/EuropeanUnion.png" class="img-fluid animate">
-			</div>
-			<div class="col-sm-3">
-			  <img src="assets/images/DirectRelief.png" class="img-fluid animate">
-			</div>
-			<div class="col-sm-3">
-			  <img src="assets/images/TheAbnormalBeautyCompany.png" class="img-fluid animate">
-			</div>
-		</div>
-				
-		</section>
-	  
 
-	<footer>
-		<div class="container py-4">
-			<div class="row mb-2">
-				<div id="footer-column-1" class="col-sm d-flex flex-column align-items-center">
-					<a href="index.html">
-						<img src="assets/images/nyli-logo-light.svg" alt="" style="width: 90px; margin-bottom: 1rem;">
-					</a>
-					<span id="social-media">Follow us on social media</span>
-					<div class="footer-icons">
-						<a href="https://www.facebook.com/nyliincph">
-							<i class="fa-brands fa-facebook" style="font-size: 28px;"></i>
-						</a>
-						<a href="https://www.instagram.com/nyliinc_ph">
-							<i class="fa-brands fa-instagram" style="font-size: 28px; margin-left: 10px;"></i>
-						</a>
-						<a href="https://www.youtube.com/@nyliinc_ph">
-							<i class="fa-brands fa-youtube" style="font-size: 28px; margin: 0px 10px;"></i>
-						</a>
-						<a href="https://twitter.com/nyliinc_ph">
-							<i class="fa-brands fa-twitter" style="font-size: 28px; margin-right: 10px;"></i>
-						</a>
-						<a href="https://www.tiktok.com/@nyliinc_ph">
-							<i class="fa-brands fa-tiktok" style="font-size: 28px;"></i>
-						</a>
-					</div>
+			<div class="row justify-content-center fade-up">
+				<div class="col-sm-3">
+					<img src="assets/images/SK.png" class="img-fluid animate">
 				</div>
-				<div class="col-sm d-flex flex-row">
-					<div class="col-sm d-flex flex-column justify-content-center" style="padding-left: 3rem;">
-						<a href="about-us.html" class="footer-link">About Us</a>
-						<a href="stories.html" class="footer-link">Stories</a>
-						<a href="publications.html" class="footer-link">Publications</a>
-					</div>
-					<div class="col-sm d-flex flex-column justify-content-center">
-						<a href="partners.html" class="footer-link">Partners</a>
-						<a href="contact-us.html" class="footer-link">Contact</a>
-						<a href="#" class="footer-link">Donate</a>
-					</div>
+				<div class="col-sm-3">
+					<img src="assets/images/OracleNetSuite.png" class="img-fluid animate">
 				</div>
-				<div class="col-sm d-flex flex-column justify-content-center" style="margin-left: 8rem;">
-					<div class="row">
-						<span>
-							<i class="fa-solid fa-phone" style="font-size: 20px;"></i>&nbsp;
-							Contact Us
-						</span>
-					</div>
-					<div class="row mb-3">
-						<span class="footer-info">
-							(034) 469 4797
-						</span>
-					</div>
-					<div class="row">
-						<span>
-							<i class="fa-solid fa-location-dot" style="font-size: 22px;"></i>&nbsp;&nbsp;
-							Location
-						</span>
-					</div>
-					<div class="row">
-						<span class="footer-info">
-							Unit 2FC, 2/F Negros First Cyber Centre Annex Building, Hernaez-Lacson St 6100 Bacolod City,
-							Philippines
-						</span>
-					</div>
+				<div class="col-sm-3">
+					<img src="assets/images/Gilead.png" class="img-fluid animate">
+				</div>
+				<div class="col-sm-3">
+					<img src="assets/images/Kaisahan.png" class="img-fluid animate">
 				</div>
 			</div>
-			<div class="row" id="divider">
-				<div class="col-sm footer-column">
-					<span class="footer-text">2023 © Negrosanon Youth Leaders Institute, Inc.</span>
+
+			<div class="row justify-content-center fade-up">
+				<div class="col-sm-3">
+					<img src="assets/images/GoJust.png" class="img-fluid animate">
 				</div>
-				<div class="col-sm footer-column" style="padding-left: 3rem;">
-					<span class="footer-text">Free Charity Hosting by Kualo | Nonprofit Website Design</span>
+				<div class="col-sm-3">
+					<img src="assets/images/EuropeanUnion.png" class="img-fluid animate">
 				</div>
-				<div class="col-sm footer-column text-end">
-					<a class="footer-text" href="#">Privacy Policy</a>
-					<span class="footer-text"> • </span>
-					<a class="footer-text" href="#">Terms of Use</a>
+				<div class="col-sm-3">
+					<img src="assets/images/DirectRelief.png" class="img-fluid animate">
+				</div>
+				<div class="col-sm-3">
+					<img src="assets/images/TheAbnormalBeautyCompany.png" class="img-fluid animate">
 				</div>
 			</div>
-		</div>
-	</footer>
+
+	</section>
+
+
+	<?php require_once 'footer.php'; ?>
 
 	<script src="/assets/bootstrap/js/bootstrap.bundle.js"></script>
 	<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
