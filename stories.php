@@ -19,34 +19,13 @@
 </head>
 
 <body>
-	<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary d-block">
-		<img src="assets/images/nav-line.svg" class="nav-line">
-		<div class="container d-flex">
-			<a class="navbar-brand" href="index.html"><img src="assets/images/banner.svg" alt="" class=""
-					style="width: 8em;"></a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="navbar-nav ms-auto">
-					<a class="nav-link" href="about-us.html">About Us</a>
-					<a class="nav-link" href="stories.html">Stories</a>
-					<span class="nav-link">Publications</span>
-					<a class="nav-link" href="partners.html">Partners</a>
-					<button type="button" class="nyli-btn-nav ms-2">
-						<a id="nav-cta" href="contact-us.html">Contact Us</a>
-					</button>
-				</div>
-			</div>
-		</div>
-	</nav>
+	<?php require_once 'navbar.php'; ?>
 
 	<section class="header">
 		<div class="d-flex justify-content-center p-5">
 			<div class="d-flex flex-column justify-content-center align-items-center py-4">
 				<div class="section-header-dark">
-					<h2>Publications</h2>
+					<h2>Stories</h2>
 					<hr>
 				</div>
 				<div class="p-2">
@@ -71,10 +50,10 @@
 						<div class="search-field">
 							<span class="fa fa-search search-icon"></span>
 							<input type="text"
-								placeholder="Search"
-								name="search" style="border: 0; outline: none; margin-right: 7px;" autofocus autocomplete="off">
+								placeholder="search"
+								name="Search" style="border: 0; outline: none; margin-right: 7px;" autofocus autocomplete="off">
 						</div>
-						<button type="button" class="nyli-btn-primary-light">
+						<button type="button" class="nyli-btn-primary-light ms-2">
 							<a href="#">Search</a>
 						</button>
 					</form>
@@ -82,73 +61,66 @@
 			</div>
 			<div class="publication-content">
 				<div class="row">
-					<div class="content-list col-4 animate">
-						<div class="thumbnail-img">
-							<img src="assets/images/3.png" class="img-fluid mx-auto d-block text-center">
-						</div>
+					<div class="content-list col-4">
+						<img src="assets/images/3.png" class="img-fluid mx-auto d-block text-center">
 						<div class="header-title-main">
 							<h3>3 Negrosanon Young Leaders to represent Negros Occidental in a U.S. Fellowship</h3>
 							<p>January 24, 2023</p>
 						</div>
 						<button type="button" class="nyli-btn-primary-light">
-							<a href="#">Download</a>
+							<a href="story-article.html">Read more</a>
 						</button>
 					</div>
-					<div class="content-list col-4 animate">
-						<div class="thumbnail-img">
-							<img src="assets/images/2.jpg" class="img-fluid mx-auto d-block text-center">
-						</div>
+					<div class="content-list col-4">
+						<img src="assets/images/2.jpg" class="img-fluid mx-auto d-block text-center">
 						<div class="header-title-main">
 							<h3>“Relatively cheap” and “charging less for quality work” – How the Filipino online workers are being advertised by the Philippine business process outsourcing industry and online job sites</h3>
 							<p>January 24, 2023</p>
 						</div>
 						<button type="button" class="nyli-btn-primary-light">
-							<a href="#">Download</a>
+							<a href="story-article.html">Read more</a>
 						</button>
 					</div>
-					<div class="content-list col-4 animate">
-						<div class="thumbnail-img">
-							<img src="assets/images/beautiful.jpg" class="img-fluid mx-auto d-block text-center">
-						</div>
+					<div class="content-list col-4">
+						<img src="assets/images/beautiful.jpg" class="img-fluid mx-auto d-block text-center">
 						<div class="header-title-main">
 							<h3>NYLI, SK Federation Bacolod, capacitates the youth through Youth Employment Enrichment Workshop</h3>
 							<p>January 24, 2023</p>
 						</div>
 						<button type="button" class="nyli-btn-primary-light">
-							<a href="#">Download</a>
+							<a href="story-article.html">Read more</a>
 						</button>
 					</div>
 				</div>
 				<div class="row">
-					<div class="content-list col-4 animate">
-
+					<div class="content-list col-4">
 						<img src="assets/images/default.png" class="img-fluid mx-auto d-block text-center">
 						<div class="header-title-main">
 							<h3>3 Negrosanon Young Leaders to represent Negros Occidental in a U.S. Fellowship</h3>
 							<p>January 24, 2023</p>
 						</div>
 						<button type="button" class="nyli-btn-primary-light">
-							<a href="#">Download</a>
+							<a href="story-article.html">Read more</a>
 						</button>
 					</div>
-					<div class="content-list col-4 animate">
+					<div class="content-list col-4">
 						<img src="assets/images/default.png" class="img-fluid mx-auto d-block text-center">
 						<div class="header-title-main">
 							<h3>3 Negrosanon Young Leaders to represent Negros Occidental in a U.S. Fellowship</h3>
 							<p>January 24, 2023</p>
 						</div>
 						<button type="button" class="nyli-btn-primary-light">
-							<a href="#">Download</a>
+							<a href="story-article.html">Read more</a>
 						</button>
 					</div>
-					<div class="content-list col-4 animate">
+					<div class="content-list col-4">
 						<img src="assets/images/default.png" class="img-fluid mx-auto d-block text-center">
 						<div class="header-title-main">
 							<h3>3 Negrosanon Young Leaders to represent Negros Occidental in a U.S. Fellowship</h3>
 							<p>January 24, 2023</p>
 						</div>
 						<button type="button" class="nyli-btn-primary-light">
-							<a href="#">Download</a>
+							<a href="story-article.html">Read more</a>
 						</button>
 					</div>
 				</div>

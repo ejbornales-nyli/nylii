@@ -18,30 +18,8 @@
 	<link href="assets/fontawesome/css/solid.css" rel="stylesheet">
 </head>
 
-
 <body>
-	<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary d-block">
-		<img src="assets/images/nav-line.svg" class="nav-line">
-		<div class="container d-flex">
-			<a class="navbar-brand" href="index.html"><img src="assets/images/banner.svg" alt="" class=""
-					style="width: 8em;"></a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="navbar-nav ms-auto">
-					<a class="nav-link" href="about-us.html">About Us</a>
-					<a class="nav-link" href="stories.html">Stories</a>
-					<a class="nav-link" href="publications.html">Publications</a>
-					<span class="nav-link">Partners</span>
-					<button type="button" class="nyli-btn-nav ms-2">
-						<a id="nav-cta" href="contact-us.html">Contact Us</a>
-					</button>
-				</div>
-			</div>
-		</div>
-	</nav>
+	<?php require_once 'navbar.php'; ?>
 
 	<section class="header">
 		<div class="d-flex justify-content-center p-5">
