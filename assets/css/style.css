@@ -117,31 +117,35 @@ span.subtitle {
 	margin-bottom: 10px;
 }
 
+.section-link button{
+	border: solid 1px;
+	border-radius: 15px;
+}
+
 .section-link a,
 .section-link button {
-	border-radius: 10px;
-	border: #fff;
-	border-style: solid;
-	width: 10rem;
+	width: 15rem;
+	padding: 10px;
 }
 
 .section-link,
 .section-link button {
-	color: white;
+	color: #006443;
 	/* Default color for inactive links */
-	background-color: #333434;
+	background-color: white;
 }
 
 .section-link:not(.active),
 .section-link:not(.active) button {
-	color: white;
+	color: #006443;
 	/* Default color for inactive links */
-	background-color: #333434;
+	background-color: white;
 }
 
 .section-link.active,
 .section-link.active button {
 	color: white;
+	border-radius: 15px;
 	/* Default color for inactive links */
 	background-color: #006443;
 }
