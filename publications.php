@@ -47,9 +47,9 @@
 				</div>
 				<div class="col-6">
 					<form class="search-form" action="#" style="float: right;">
-						<div class="search-field">
+						<div class="search-field form-control">
 							<span class="fa fa-search search-icon"></span>
-							<input type="text" placeholder="Search" name="search" style="border: 0; outline: none; margin-right: 7px;" autofocus autocomplete="off">
+							<input type="text" class="search form-control" placeholder="Search" name="search" autocomplete="off">
 						</div>
 						<button type="button" class="nyli-btn-primary-light">
 							<a href="#">Search</a>
