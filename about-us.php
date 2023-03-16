@@ -36,20 +36,23 @@
 
 
 	<section class="about-section">
-		<div class="container h-100 d-flex flex-column align-items-center p-5">
+		<div class="container d-flex flex-column align-items-center p-5">
 			<div class="about-cover row">
-				<div class="sidebar col-3">
-					<ul>
-						<li><a href="#section1" class="section-link active"><button class="">Humble
+				<div class="sidebar col-lg-3 col-sm-12">
+					<ul class = "row row-cols-3 row-cols-sm-3 row-cols-md-1">
+						<div class ="col"><li><a href="#section1" class="section-link active"><button class="">Humble
 									Beginnings</button></a>
-						</li>
-						<li><a href="#section2" class="section-link"><button class="">Mission, Vision, and
-									Advocacy</button></a></li>
-						<li><a href="#section3" class="section-link"><button class="">Alumni</button></a></li>
+						</li></div>
+						<div class ="col"><li><a href="#section2" class="section-link"><button class="">Mission, Vision, and
+									Advocacy</button></a></li></div>
+						<div class ="col"><li><a href="#section3" class="section-link"><button class="">Alumni</button></a></li></div>
+						
+						
+						
 					</ul>
 				</div>
 
-				<div class="about-content col-8">
+				<div class="about-content col-lg-8 col-sm-12">
 
 					<div class="section active" id="section1">
 						<div class="video-container">
@@ -79,12 +82,12 @@
 							Welfare and
 							Development as a community-based social welfare agency, and in the same year, NYLI Inc
 							received
-							support from the <a href="https://www.facebook.com/consuelozobelalgerfoundation/">Consuelo
-								Zobel Alger Foundation</a> that became instrumental to its growth and
+							support from the <b><a href="https://www.facebook.com/consuelozobelalgerfoundation/" style="text-decoration:none; color:#006443;">Consuelo
+								Zobel Alger Foundation</a></b> that became instrumental to its growth and
 							development as an organization.
 						</p>
 						<p>
-							On November 2021, the <a href="https://www.facebook.com/NegOcc.Gov">Provincial Government of Negros Occidental</a> through the Local
+							On November 2021, the <b><a href="https://www.facebook.com/NegOcc.Gov" style="text-decoration:none; color:#006443;">Provincial Government of Negros Occidental</a></b> through the Local
 							Youth
 							Development Council and the Provincial SK Federation, the Institute has been granted with
 							the
@@ -118,15 +121,6 @@
 					<div class="section" id="section2">
 						<div class="row">
 							<div class="col-4 sec-col">
-								<img src="/assets/images/placeholder.png" class="img-fluid" alt=""><br><br>
-								<h6>Our Advocacy Focus</h6>
-								<p>Culture and Arts, Economic Development, Education and Literacy, Environment, Good
-									Governance,
-									Health and Nutrition, Contemporary Issues.</p>
-							</div>
-
-							<div class="col-4 sec-col">
-								<img src="/assets/images/placeholder.png" class="img-fluid" alt=""><br><br>
 								<h6>Our Mission</h6>
 								<p>NYLI is committed to equipping Negrosanon Youths through education, empowerment, and
 									engagement–by providing them with safe spaces for action-driven dialogue,
@@ -135,11 +129,17 @@
 							</div>
 
 							<div class="col-4 sec-col">
-								<img src="/assets/images/placeholder.png" class="img-fluid" alt=""><br><br>
 								<h6>Our Vision</h6>
 								<p>NYLI envisions empowered Negrosanon Youths who are committed towards a Sustainable
 									Negros.
 								</p>
+							</div>
+
+							<div class="col-4 sec-col">
+								<h6>Our Advocacy Focus</h6>
+								<p>Culture and Arts, Economic Development, Education and Literacy, Environment, Good
+									Governance,
+									Health and Nutrition, Contemporary Issues.</p>
 							</div>
 						</div>
 
