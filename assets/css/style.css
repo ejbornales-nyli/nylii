@@ -671,8 +671,9 @@ div.search-field.form-control:focus {
 	box-shadow: 0 0 0 5px #E6F2B5;
 }
 
-.publication-content {
-	margin-top: 70px;
+.publication-content,
+.story-content {
+	margin-top: 50px;
 }
 
 .content-list {
@@ -722,22 +723,22 @@ div.search-field.form-control:focus {
 	display: inline-block;
 	padding: 5px 14px;
 	margin: 0 3px;
-	border: 1px solid #a3c53a;
-	background-color: #a3c53a;
+	border: 1px solid #006443;
+	background-color: #006443;
 	text-decoration: none;
 	color: white;
 }
 
 .pagination-btn:hover {
 	background-color: white;
-	color: #a3c53a;
-	border-color: #a3c53a;
+	color: #006443;
+	border-color: #006443;
 }
 
 .pagination-btn.active {
 	background-color: white;
-	color: #a3c53a;
-	border-color: #a3c53a;
+	color: #006443;
+	border-color: #006443;
 }
 
 .subheader {
