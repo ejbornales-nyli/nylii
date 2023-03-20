@@ -675,7 +675,7 @@ div.search-field.form-control:focus {
 	box-shadow: none;
 }
 
-.search-field:has(> input:focus) {
+.search-field:has(input:focus) {
 	outline: none;
 	box-shadow: 0 0 0 5px #E6F2B5;
 }
@@ -802,6 +802,10 @@ div.search-field.form-control:focus {
 
 	.impact-desc {
 		font-size: 12px;
+	}
+
+	.sidebar{
+		display: none;
 	}
 
 }
