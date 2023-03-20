@@ -36,24 +36,21 @@
 
 
 	<section class="about-section">
-		<div class="container d-flex flex-column align-items-center p-5">
+		<div class="container p-5">
 			<div class="about-cover row">
 				<div class="sidebar col-lg-3 col-sm-12">
-					<ul class = "row row-cols-3 row-cols-sm-3 row-cols-md-1">
-						<div class ="col"><li><a href="#section1" class="section-link active"><button class="">Humble
+				<ul class="row">
+						<div class="col"><li><a href="#section1" class="section-link active"><button class="">Humble
 									Beginnings</button></a>
 						</li></div>
-						<div class ="col"><li><a href="#section2" class="section-link"><button class="">Mission, Vision, and
+						<div class="col"><li><a href="#section2" class="section-link"><button class="">Mission, Vision, and
 									Advocacy</button></a></li></div>
-						<div class ="col"><li><a href="#section3" class="section-link"><button class="">Alumni</button></a></li></div>
-						
-						
-						
+						<div class="col"><li><a href="#section3" class="section-link"><button class="">Alumni</button></a></li></div>	
 					</ul>
 				</div>
+				
 
 				<div class="about-content col-lg-8 col-sm-12">
-
 					<div class="section active" id="section1">
 						<div class="video-container">
 							<iframe src="https://www.youtube.com/embed/vwT0n5VSOn0" frameborder="0"
@@ -142,28 +139,9 @@
 									Health and Nutrition, Contemporary Issues.</p>
 							</div>
 						</div>
-
-						<div class="row">
-							<div class="col-8">
-								<img src="/assets/images/placeholder.png" class="img-fluid" alt="">
-							</div>
-							<div class="col-4">
-								<img src="/assets/images/placeholder.png" class="img-fluid" alt="">
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-4">
-								<img src="/assets/images/placeholder.png" class="img-fluid" alt="">
-							</div>
-							<div class="col-8">
-								<img src="/assets/images/placeholder.png" class="img-fluid" alt="">
-							</div>
-						</div>
 					</div>
 
 					<div class="section" id="section3">
-						<h1>Alumni</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet quam auctor, laoreet
 							lacus
 							a, malesuada massa. Nullam ultrices lectus quis neque eleifend, nec ullamcorper velit
@@ -179,6 +157,9 @@
 		</div>
 		</div>
 	</section>
+							
+	
+	
 
 	<?php require_once 'footer.php'; ?>
 

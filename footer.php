@@ -25,14 +25,14 @@
         </div>
       </div>
       <div class="col-sm d-flex flex-row">
-        <div class="col-sm d-flex flex-column justify-content-center" style="padding-left: 3rem;">
-          <a href="about-us.html" class="footer-link">About Us</a>
-          <a href="stories.html" class="footer-link">Stories</a>
-          <a href="publications.html" class="footer-link">Publications</a>
+        <div class="col-sm d-flex flex-column justify-content-center" style="padding-left: 8rem;">
+          <a href="about-us.php" class="footer-link">About Us</a>
+          <a href="stories.php" class="footer-link">Stories</a>
+          <a href="publications.php" class="footer-link">Publications</a>
         </div>
         <div class="col-sm d-flex flex-column justify-content-center">
-          <a href="partners.html" class="footer-link">Partners</a>
-          <a href="contact-us.html" class="footer-link">Contact</a>
+          <a href="partners.php" class="footer-link">Partners</a>
+          <a href="contact-us.php" class="footer-link">Contact</a>
           <a href="#" class="footer-link">Donate</a>
         </div>
       </div>

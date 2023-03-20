@@ -25,7 +25,7 @@
 			<div class="d-flex justify-content-center p-5">
 				<div class="d-flex flex-column justify-content-center align-items-center py-4">
 					<div class="section-header-dark">
-						<h2>Stories</h2>
+						<h2>Publications</h2>
 						<hr>
 					</div>
 					<div class="p-2">
@@ -36,7 +36,7 @@
 
 		<section class="stories-section">
 			<div class="container d-flex flex-column">
-				<div class="filter-content row mb-2">
+				<div class="filter-content row" style="margin: 2rem 0rem;">
 					<div class="col-6">
 						<select class="dropdown">
 							<option class="option-link" value="all">All</option>

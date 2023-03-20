@@ -55,7 +55,7 @@
 			</div>
 			<div class="p-3" style="display: flex;">
 				<button type="button" class="nyli-btn-primary-light">
-					<a href="programs.html">Explore Programs</a>
+					<a href="programs.php">Explore Programs</a>
 				</button>
 			</div>
 		</div>

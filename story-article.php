@@ -96,8 +96,8 @@
 						<h3>3 Negrosanon Young Leaders to represent Negros Occidental in a U.S. Fellowship</h3>
 						<p>January 24, 2023</p>
 					</div>
-					<button type="button" class="nyli-btn-nav">
-						<a id="nav-cta" href="story-article.html">Read more</a>
+					<button type="button" class="nyli-btn-primary-light">
+						<a href="story-article.php">Read more</a>
 					</button>
 				</div>
 				<div class="content-list col-4">
@@ -108,8 +108,8 @@
 							sites</h3>
 						<p>January 24, 2023</p>
 					</div>
-					<button type="button" class="nyli-btn-nav">
-						<a id="nav-cta">Search</a>
+					<button type="button" class="nyli-btn-primary-light">
+						<a href="story-article.php">Read more</a>
 					</button>
 				</div>
 				<div class="content-list col-4">
@@ -119,8 +119,8 @@
 							Workshop</h3>
 						<p>January 24, 2023</p>
 					</div>
-					<button type="button" class="nyli-btn-nav">
-						<a id="nav-cta">Search</a>
+					<button type="button" class="nyli-btn-primary-light">
+						<a href="story-article.php">Read more</a>
 					</button>
 				</div>
 			</div>

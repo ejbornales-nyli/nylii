@@ -36,7 +36,7 @@
 
 		<section class="stories-section">
 			<div class="container d-flex flex-column">
-				<div class="filter-content row mb-2">
+				<div class="filter-content row" style="margin: 2rem 0rem;">
 					<div class="col-6">
 						<select class="dropdown">
 							<option class="option-link" value="all">All</option>

@@ -83,6 +83,12 @@
 				</div>
 			</div>
 
+			<div class="row justify-content-center fade-up" style="margin-bottom: 6rem;">
+				<div class="col-sm-12">
+					<img src="assets/images/PPF full.webp" class="img-fluid animate">
+				</div>
+			</div>
+
 	</section>
 
 
