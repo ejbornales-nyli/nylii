@@ -60,7 +60,7 @@
 				</div>
 				<div class="stories-content">
 					<div class="row">
-						<div class="content-list col-4">
+						<div class="content-list col-md-4 col-xs-12">
 							<img src="assets/images/3.png" class="img-fluid mx-auto d-block text-center">
 							<div class="header-title-main">
 								<h3>3 Negrosanon Young Leaders to represent Negros Occidental in a U.S. Fellowship</h3>
@@ -70,7 +70,7 @@
 								<a href="story-article.php">Download</a>
 							</button>
 						</div>
-						<div class="content-list col-4">
+						<div class="content-list col-md-4 col-xs-12">
 							<img src="assets/images/2.jpg" class="img-fluid mx-auto d-block text-center">
 							<div class="header-title-main">
 								<h3>“Relatively cheap” and “charging less for quality work” – How the Filipino online
@@ -82,7 +82,7 @@
 								<a href="story-article.php">Download</a>
 							</button>
 						</div>
-						<div class="content-list col-4">
+						<div class="content-list col-md-4 col-xs-12">
 							<img src="assets/images/beautiful.jpg" class="img-fluid mx-auto d-block text-center">
 							<div class="header-title-main">
 								<h3>NYLI, SK Federation Bacolod, capacitates the youth through Youth Employment
@@ -95,7 +95,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="content-list col-4">
+						<div class="content-list col-md-4 col-xs-12">
 							<img src="assets/images/default.png" class="img-fluid mx-auto d-block text-center">
 							<div class="header-title-main">
 								<h3>3 Negrosanon Young Leaders to represent Negros Occidental in a U.S. Fellowship</h3>
@@ -105,7 +105,7 @@
 								<a href="story-article.php">Download</a>
 							</button>
 						</div>
-						<div class="content-list col-4">
+						<div class="content-list col-md-4 col-xs-12">
 							<img src="assets/images/default.png" class="img-fluid mx-auto d-block text-center">
 							<div class="header-title-main">
 								<h3>3 Negrosanon Young Leaders to represent Negros Occidental in a U.S. Fellowship</h3>
@@ -115,7 +115,7 @@
 								<a href="story-article.php">Download</a>
 							</button>
 						</div>
-						<div class="content-list col-4">
+						<div class="content-list col-md-4 col-xs-12">
 							<img src="assets/images/default.png" class="img-fluid mx-auto d-block text-center">
 							<div class="header-title-main">
 								<h3>3 Negrosanon Young Leaders to represent Negros Occidental in a U.S. Fellowship</h3>

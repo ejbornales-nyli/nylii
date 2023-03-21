@@ -11,7 +11,7 @@
 
 /* tags */
 a.nav-link {
-	color: #106544;
+	color: #006442;
 	font-family: 'Agrandir Regular';
 }
 
@@ -33,6 +33,11 @@ body {
 	background-position: right bottom;
 }
 
+#current-page {
+	font-family: 'Agrandir Regular';
+	color: #a3c53a;
+}
+
 div.card {
 	border: none;
 }
@@ -52,9 +57,10 @@ div.footer-column {
 	padding-top: 4px;
 }
 
-footer {
-	background-color: #106544;
-	background-size: cover;
+footer,
+.desktop-footer,
+.mobile-footer {
+	background-color: #006442;
 	color: white;
 }
 
@@ -68,13 +74,29 @@ footer {
 	text-decoration: none;
 }
 
-h3 {
+.footer-bottom {
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+a.footer-bottom {
+	font-family: 'Roboto';
+	text-decoration: none;
+	color: white;
+}
+
+.small-dot {
+	font-size: 12px;
+}
+
+/* h3 {
 	font-family: 'Agrandir Grand Heavy';
 }
 
 h4 {
 	font-family: 'Agrandir Regular';
-}
+} */
 
 input[type=text],
 input[type=number],
@@ -91,6 +113,10 @@ input[type=subject]:focus,
 textarea.form-control:focus {
 	border: 1px solid silver;
 	box-shadow: 0 0 0 5px #E6F2B5;
+}
+
+.mobile-footer {
+	display: none;
 }
 
 nav.navbar {
@@ -174,7 +200,6 @@ span.drop-cap {
 	line-height: 60px;
 	padding-top: 4px;
 	padding-right: 8px;
-	padding-left: 3px;
 }
 
 span.footer-info {
@@ -236,6 +261,15 @@ textarea.form-control {
 	font-family: 'Roboto';
 	color: white;
 	text-decoration: none;
+}
+
+.footer-links li {
+	list-style-type: none;
+	padding-left: 15px;
+}
+
+ul.footer-links {
+	padding-left: 0;
 }
 
 .footer-text {
@@ -313,6 +347,11 @@ textarea.form-control {
 
 .program-section {
 	background-color: white;
+}
+
+.article,
+.article-header {
+	padding: 2vw 22.5vw;
 }
 
 .program {
@@ -750,7 +789,7 @@ div.search-field.form-control:focus {
 	border-color: #006443;
 }
 
-.subheader {
+.article-title {
 	color: #333434;
 	font-size: 28px;
 	font-family: 'Agrandir Regular';
@@ -758,9 +797,9 @@ div.search-field.form-control:focus {
 
 .author {
 	color: #333434;
-	font-size: 20px;
-	font-family: Roboto, regular;
-	padding-top: 15px;
+	font-size: 16px;
+	font-family: 'Roboto';
+	padding-top: 10px;
 }
 
 .video-container {
@@ -804,8 +843,37 @@ div.search-field.form-control:focus {
 		font-size: 12px;
 	}
 
-	.sidebar{
+	.sidebar {
 		display: none;
 	}
 
+	.desktop-footer {
+		display: none;
+	}
+
+	.mobile-footer {
+		display: block;
+	}
+
+	.article,
+	.article-header {
+		padding: 2vw 5vw;
+	}
+
+	span.footer-info {
+		margin: 0;
+	}
+
+	#address {
+		padding-left: 25vw;
+		padding-right: 22.5vw;
+	}
+	
+	#mobile-separator {
+		width: 90%;
+		margin: auto;
+		border: 0.5px solid white;
+		opacity: 1;
+		margin-bottom: 10px;
+	}
 }
