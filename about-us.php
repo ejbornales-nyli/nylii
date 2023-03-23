@@ -5,7 +5,7 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>NYLI</title>
+	<title>About Us | Negrosanon Young Leaders Institute</title>
 	<link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
@@ -39,16 +39,30 @@
 		<div class="container p-5">
 			<div class="about-cover row">
 				<div class="sidebar col-lg-3 col-sm-12">
-				<ul class="row">
-						<div class="col"><li><a href="#section1" class="section-link active"><button class="">Humble
-									Beginnings</button></a>
-						</li></div>
-						<div class="col"><li><a href="#section2" class="section-link"><button class="">Mission, Vision, and
-									Advocacy</button></a></li></div>
-						<div class="col"><li><a href="#section3" class="section-link"><button class="">Alumni</button></a></li></div>	
+					<ul class="row">
+						<div class="col">
+							<li><a href="#section1" class="section-link active"><button class="">Humble
+										Beginnings</button></a>
+							</li>
+						</div>
+						<div class="col">
+							<li><a href="#section2" class="section-link"><button class="">Mission, Vision, and
+										Advocacy</button></a></li>
+						</div>
+						<div class="col">
+							<li><a href="#section3" class="section-link"><button class="">Alumni</button></a></li>
+						</div>
 					</ul>
 				</div>
-				
+
+				<div class="about-dropdown">
+					<select class="dropdown">
+						<option><a class="section-link active" href="#section1">Humble Beginnings</a></option>
+						<option><a class="section-link" href="#section2">Mission, Vision, and Advocacy</a></option>
+						<option><a class="section-link" href="#section3">Alumni</a></option>
+					</select>
+				</div>
+
 
 				<div class="about-content col-lg-8 col-sm-12">
 					<div class="section active" id="section1">
@@ -79,12 +93,15 @@
 							Welfare and
 							Development as a community-based social welfare agency, and in the same year, NYLI Inc
 							received
-							support from the <b><a href="https://www.facebook.com/consuelozobelalgerfoundation/" style="text-decoration:none; color:#006443;">Consuelo
-								Zobel Alger Foundation</a></b> that became instrumental to its growth and
+							support from the <b><a href="https://www.facebook.com/consuelozobelalgerfoundation/"
+									style="text-decoration:none; color:#006443;">Consuelo
+									Zobel Alger Foundation</a></b> that became instrumental to its growth and
 							development as an organization.
 						</p>
 						<p>
-							On November 2021, the <b><a href="https://www.facebook.com/NegOcc.Gov" style="text-decoration:none; color:#006443;">Provincial Government of Negros Occidental</a></b> through the Local
+							On November 2021, the <b><a href="https://www.facebook.com/NegOcc.Gov"
+									style="text-decoration:none; color:#006443;">Provincial Government of Negros
+									Occidental</a></b> through the Local
 							Youth
 							Development Council and the Provincial SK Federation, the Institute has been granted with
 							the
@@ -157,9 +174,9 @@
 		</div>
 		</div>
 	</section>
-							
-	
-	
+
+
+
 
 	<?php require_once 'footer.php'; ?>
 

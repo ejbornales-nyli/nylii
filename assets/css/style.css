@@ -657,6 +657,10 @@ div.program:focus .pre-content {
 	margin-bottom: 50px;
 }
 
+.about-dropdown {
+	display: none;
+}
+
 .dropdown {
 	padding: 5px 10px;
 	border-radius: 6px;
@@ -817,6 +821,9 @@ div.search-field.form-control:focus {
 	height: 100%;
 }
 
+/* Card CSS */
+
+
 /* media queries */
 
 @media screen and (max-width: 600px) {
@@ -875,5 +882,12 @@ div.search-field.form-control:focus {
 		border: 0.5px solid white;
 		opacity: 1;
 		margin-bottom: 10px;
+	}
+	.program h4 {
+		font-size: 18px;
+	}
+	.about-dropdown{
+		display: block;
+		margin-bottom: 2rem;
 	}
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NYLI</title>
+    <title>Programs | Negrosanon Young Leaders Institute</title>
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
@@ -53,7 +53,8 @@
                             Youth Employment Enrichment Solutions
                         </h4>
                         <p>
-                            Youth who are seeking employment are equipped with essential tools for job placement and have
+                            Youth who are seeking employment are equipped with essential tools for job placement and
+                            have
                             increased their awareness of their rights as members of the Philippine workforce.
                         </p>
                     </div>
@@ -90,7 +91,8 @@
                             Young Leaders Fellowship
                         </h4>
                         <p>
-                            Youth leaders are equipped with the knowledge and skills necessary to co-create and implement solutions to issues confronting them and their communities.
+                            Youth leaders are equipped with the knowledge and skills necessary to co-create and
+                            implement solutions to issues confronting them and their communities.
                         </p>
                     </div>
                 </div>
@@ -107,7 +109,8 @@
                             Bacolod Youth Coalition for Democracy
                         </h4>
                         <p>
-                            Youth are educated on their civic rights and responsibilities and are engaged to meaningfully participate in safeguarding our democracy.
+                            Youth are educated on their civic rights and responsibilities and are engaged to
+                            meaningfully participate in safeguarding our democracy.
                         </p>
                     </div>
                 </div>

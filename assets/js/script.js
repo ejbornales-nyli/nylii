@@ -97,3 +97,17 @@ projects.forEach((project) => {
   });
 });
 
+// Mobile dropdown for about us
+// const dropdown = document.querySelector('.dropdown');
+// const sections = document.querySelectorAll('.section');
+
+// dropdown.addEventListener('change', function() {
+//   const selectedSection = this.value;
+//   for (let i = 0; i < sections.length; i++) {
+//     if (sections[i].id === selectedSection) {
+//       sections[i].style.display = 'block';
+//     } else {
+//       sections[i].style.display = 'none';
+//     }
+//   }
+// });
