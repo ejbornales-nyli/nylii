@@ -280,7 +280,7 @@ ul.footer-links {
 }
 
 .hero {
-	background-color: gray;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../images/hero.webp');
 	color: white;
 	background-size: cover;
 	height: 100vh;
@@ -504,25 +504,25 @@ div.program-content {
 }
 
 #ewd {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/cat1.webp");
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/educ-pr1.webp");
 	background-size: cover;
 	background-position: center;
 }
 
 #ecs {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/cat2.webp");
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/emp-pr2.webp");
 	background-size: cover;
 	background-position: center;
 }
 
 #cce {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/cat3.webp");
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/civ-pr3.webp");
 	background-size: cover;
 	background-position: center;
 }
 
 #ac {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/cat4.webp");
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/adv-pr2.webp");
 	background-size: cover;
 	background-position: center;
 }

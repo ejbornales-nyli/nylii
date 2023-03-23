@@ -28,7 +28,8 @@
 					<h1 style="text-align: center;">Negrosanon Young Leaders Institute Incorporated</h1>
 				</div>
 				<div class="p-2">
-					<span class="subtitle">Providing meaningful opportunities, enabling mentorship, and resources for young leaders.</span>
+					<span class="subtitle">Providing meaningful opportunities, enabling mentorship, and resources
+						for young leaders.</span>
 				</div>
 				<div class="p-3" style="display: flex;">
 					<button type="button" class="nyli-btn-primary-dark" style="margin-right: 4px;">
