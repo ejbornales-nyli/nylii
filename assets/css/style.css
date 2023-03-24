@@ -229,10 +229,11 @@ textarea.form-control {
 
 .volunteer {
 	padding: 2rem 0rem;
-	background-image: url('../images/placeholder.png');
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../images/emp-pr1.webp');
 	background-size: cover;
 	background-position: center;
 }
+
 
 /* Contact Page */
 
@@ -430,6 +431,7 @@ ul.footer-links {
 	margin-left: 50%;
 	margin-right: 13%;
 	line-height: 1.5rem;
+	color: #fff;
 }
 
 .impact-desc,
@@ -504,7 +506,7 @@ div.program-content {
 }
 
 #ewd {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/educ-pr1.webp");
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/educ-pr2.webp");
 	background-size: cover;
 	background-position: center;
 }
