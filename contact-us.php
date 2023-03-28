@@ -21,7 +21,7 @@
 <body>
 	<?php require_once 'navbar.php'; ?>
 
-	<section class="header">
+	<section id="contact-us" class="header">
 		<div class="d-flex justify-content-center p-5">
 			<div class="d-flex flex-column justify-content-center align-items-center py-4">
 				<div class="section-header-dark">

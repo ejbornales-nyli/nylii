@@ -21,7 +21,7 @@
 <body>
 	<?php require_once 'navbar.php'; ?>
 
-	<section class="header">
+	<section id="partners" class="header">
 		<div class="d-flex justify-content-center p-5">
 			<div class="d-flex flex-column justify-content-center align-items-center py-4">
 				<div class="section-header-dark">
@@ -37,7 +37,7 @@
 	<section class="partner-section">
 		<div class="container text-center">
 			<h2 class="section-header-light"></h2>
-			<p class="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet consectetur sapien. Nam sodales tempus enim vitae vulputate. Cras luctus sed ligula vitae vehicula.</p>
+			<p class="p-2">Working for and with the most vulnerable, Negrosanon Young Leaders Institute partners with organizations, corporations, and grant-giving institutions to advance the welfare of children, youth, their families and communities.</p>
 			<div class="row justify-content-center fade-up">
 				<div class="col-sm-3">
 					<img src="assets/images/Consuelo.png" class="img-fluid animate">
@@ -84,8 +84,17 @@
 			</div>
 
 			<div class="row justify-content-center fade-up" style="margin-bottom: 6rem;">
-				<div class="col-sm-12">
+				<div class="col-sm-3">
 					<img src="assets/images/PPF full.webp" class="img-fluid animate">
+				</div>
+				<div class="col-sm-3">
+
+				</div>
+				<div class="col-sm-3">
+
+				</div>
+				<div class="col-sm-3">
+					
 				</div>
 			</div>
 

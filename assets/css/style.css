@@ -508,7 +508,7 @@ div.program-content {
 #ewd {
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/educ-pr2.webp");
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 }
 
 #ecs {
@@ -661,6 +661,42 @@ div.program:focus .pre-content {
 
 .about-dropdown {
 	display: none;
+}
+
+#about-us {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/about-us.webp");
+	background-position: center;
+	background-size: cover;
+}
+
+#stories {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/stories.webp");
+	background-position: center;
+	background-size: cover;
+}
+
+#publications {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/publications.webp");
+	background-position: center;
+	background-size: cover;
+}
+
+#partners {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/partners.webp");
+	background-position: center;
+	background-size: cover;
+}
+
+#contact-us {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/contact-us.webp");
+	background-position: center;
+	background-size: cover;
+}
+
+#programs {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/programs.webp");
+	background-position: center;
+	background-size: cover;
 }
 
 .dropdown {

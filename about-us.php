@@ -21,7 +21,7 @@
 <body>
 	<?php require_once 'navbar.php'; ?>
 
-	<section class="header">
+	<section id="about-us" class="header">
 		<div class="d-flex justify-content-center p-5">
 			<div class="d-flex flex-column justify-content-center align-items-center py-4">
 				<div class="section-header-dark">
@@ -33,7 +33,6 @@
 			</div>
 		</div>
 	</section>
-
 
 	<section class="about-section">
 		<div class="container p-5">
@@ -134,7 +133,7 @@
 
 					<div class="section" id="section2">
 						<div class="row">
-							<div class="col-4 sec-col">
+							<div class="row sec-col">
 								<h6>Our Mission</h6>
 								<p>NYLI is committed to equipping Negrosanon Youths through education, empowerment, and
 									engagement–by providing them with safe spaces for action-driven dialogue,
@@ -142,14 +141,14 @@
 									self-discovery to become catalysts of change in their communities.</p>
 							</div>
 
-							<div class="col-4 sec-col">
+							<div class="row sec-col">
 								<h6>Our Vision</h6>
 								<p>NYLI envisions empowered Negrosanon Youths who are committed towards a Sustainable
 									Negros.
 								</p>
 							</div>
 
-							<div class="col-4 sec-col">
+							<div class="row sec-col">
 								<h6>Our Advocacy Focus</h6>
 								<p>Culture and Arts, Economic Development, Education and Literacy, Environment, Good
 									Governance,
