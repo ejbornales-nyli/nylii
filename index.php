@@ -22,8 +22,8 @@
 	<?php require_once 'navbar.php'; ?>
 
 	<section class="hero">
-		<div class="container h-100 d-flex justify-content-center p-5">
-			<div class="d-flex flex-column justify-content-center align-items-center p-5">
+		<div class="container h-100 d-flex justify-content-center p-2">
+			<div class="d-flex flex-column justify-content-center align-items-center p-2">
 				<div class="p-2">
 					<h1 style="text-align: center;">Negrosanon Young Leaders Institute Incorporated</h1>
 				</div>
@@ -44,7 +44,7 @@
 	</section>
 
 	<section class="program-section">
-		<div class="container d-flex flex-column align-items-center p-5">
+		<div class="container d-flex flex-column align-items-center p-2">
 			<div class="section-header-light">
 				<hr>
 				<h2>Our Programs</h2>
@@ -126,7 +126,7 @@
 	</section>
 
 	<section class="impact-section">
-		<div class="container d-flex flex-column align-items-center p-5">
+		<div class="container d-flex flex-column align-items-center p-2">
 			<div class="section-header-light">
 				<hr>
 				<h2>Our Impact</h2>
@@ -172,7 +172,7 @@
 	</section>
 
 	<section class="action-section">
-		<div class="container d-flex flex-column align-items-center p-5">
+		<div class="container d-flex flex-column align-items-center p-2">
 			<div class="section-header-light">
 				<hr>
 				<h2>Get Involved</h2>
@@ -184,8 +184,8 @@
 		</div>
 		<div class="volunteer container-fluid">
 			<div class="volunteer-desc">
-				<h3 class="">Be a Volunteer</h3>
-				<span class="">You may have spare time, or passionate about the youth movement and engagement
+				<h3>Be a Volunteer</h3>
+				<span>You may have spare time, or passionate about the youth movement and engagement
 					innation-building, join us as one of our Volunteer Members and help us reach more young people to be
 					the frontlines of developing their communities.</span>
 				<div class="vol-btn pt-3"><button type="button" class="nyli-btn-primary-dark">

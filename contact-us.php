@@ -65,11 +65,6 @@
 		</div>
 	</div>
 
-	<section class="program-section">
-		<div class="container h-100 d-flex flex-column align-items-center">
-		</div>
-	</section>
-
 	<?php require_once 'footer.php'; ?>
 
 	<script src="/assets/bootstrap/js/bootstrap.bundle.js"></script>

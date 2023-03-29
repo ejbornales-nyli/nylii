@@ -56,12 +56,23 @@
 
 				<div class="about-dropdown">
 					<select class="dropdown">
-						<option><a class="section-link active" href="#section1">Humble Beginnings</a></option>
-						<option><a class="section-link" href="#section2">Mission, Vision, and Advocacy</a></option>
-						<option><a class="section-link" href="#section3">Alumni</a></option>
+						<option value="#mobile-section1">Humble Beginnings</option>
+						<option value="#mobile-section2">Mission, Vision, and Advocacy</option>
+						<option value="#mobile-section3">Alumni</option>
 					</select>
 				</div>
 
+				<div class="mobile-about-content">
+					<div class="mobile-section active" id="mobile-section1">
+						<p>This is section 1</p>
+					</div>
+					<div class="mobile-section" id="mobile-section2">
+						<p>This is section 2</p>
+					</div>
+					<div class="mobile-section" id="mobile-section3">
+						<p>This is section 3</p>
+					</div>
+				</div>
 
 				<div class="about-content col-lg-8 col-sm-12">
 					<div class="section active" id="section1">
@@ -134,7 +145,7 @@
 					<div class="section" id="section2">
 						<div class="row">
 							<div class="row sec-col">
-								<h6>Our Mission</h6>
+								<h4>Our Mission</h4>
 								<p>NYLI is committed to equipping Negrosanon Youths through education, empowerment, and
 									engagement–by providing them with safe spaces for action-driven dialogue,
 									discussion, and
@@ -142,14 +153,14 @@
 							</div>
 
 							<div class="row sec-col">
-								<h6>Our Vision</h6>
+								<h4>Our Vision</h4>
 								<p>NYLI envisions empowered Negrosanon Youths who are committed towards a Sustainable
 									Negros.
 								</p>
 							</div>
 
 							<div class="row sec-col">
-								<h6>Our Advocacy Focus</h6>
+								<h4>Our Advocacy Focus</h4>
 								<p>Culture and Arts, Economic Development, Education and Literacy, Environment, Good
 									Governance,
 									Health and Nutrition, Contemporary Issues.</p>

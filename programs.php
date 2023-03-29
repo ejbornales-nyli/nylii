@@ -28,15 +28,13 @@
                     <h2>Programs</h2>
                     <hr>
                 </div>
-                <div class="p-2">
-                </div>
             </div>
         </div>
     </section>
 
     <section class="program-section">
         <div class="container d-flex flex-column align-items-center p-5">
-            <p>
+            <p style="margin-bottom: 3rem;">
                 Working for and with the most vulnerable, Negrosanon Young Leaders Institute yearns to enable and engage
                 children, young people, their families and communities to collectively work to make a difference.
             </p>
@@ -46,17 +44,74 @@
                 Children, young individuals, and professionals are equipped with tools essential and necessary for
                 employment and livelihood opportunities.
             </p>
-            <div class="project" id="ewd">
-                <div class="project-gradient">
-                    <div class="project-content">
-                        <h4>
-                            Youth Employment Enrichment Solutions
-                        </h4>
-                        <p>
-                            Youth who are seeking employment are equipped with essential tools for job placement and
-                            have
-                            increased their awareness of their rights as members of the Philippine workforce.
-                        </p>
+            <div id="carousel-ewd" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="project carousel-item active" id="ewd">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Youth Employment Enrichment Solutions
+                                </h4>
+                                <p>
+                                    Youth who are seeking employment are equipped with essential tools for job
+                                    placement and
+                                    have
+                                    increased their awareness of their rights as members of the Philippine
+                                    workforce.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="ecs">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Project SEXZ
+                                </h4>
+                                <p>
+                                    Children and youth are educated on sexual and reproductive health and rights and HIV
+                                    through
+                                    participatory sessions to increase their personal sexual protective behaviors and
+                                    practices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="cce">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Young Leaders Fellowship
+                                </h4>
+                                <p>
+                                    Youth leaders are equipped with the knowledge and skills necessary to co-create and
+                                    implement solutions to issues confronting them and their communities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="ac">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Bacolod Youth Coalition for Democracy
+                                </h4>
+                                <p>
+                                    Youth are educated on their civic rights and responsibilities and are engaged to
+                                    meaningfully participate in safeguarding our democracy.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,16 +121,74 @@
                 Duty-bearers and rights-holders are provided with better access to enhance their knowledge, skills, and
                 capacities for sustainable community development.
             </p>
-            <div class="project" id="ecs">
-                <div class="project-gradient">
-                    <div class="project-content">
-                        <h4>
-                            Project SEXZ
-                        </h4>
-                        <p>
-                            Children and youth are educated on sexual and reproductive health and rights and HIV through
-                            participatory sessions to increase their personal sexual protective behaviors and practices.
-                        </p>
+            <div id="carousel-ecs" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="project carousel-item active" id="ewd">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Youth Employment Enrichment Solutions
+                                </h4>
+                                <p>
+                                    Youth who are seeking employment are equipped with essential tools for job
+                                    placement and
+                                    have
+                                    increased their awareness of their rights as members of the Philippine
+                                    workforce.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="ecs">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Project SEXZ
+                                </h4>
+                                <p>
+                                    Children and youth are educated on sexual and reproductive health and rights and HIV
+                                    through
+                                    participatory sessions to increase their personal sexual protective behaviors and
+                                    practices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="cce">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Young Leaders Fellowship
+                                </h4>
+                                <p>
+                                    Youth leaders are equipped with the knowledge and skills necessary to co-create and
+                                    implement solutions to issues confronting them and their communities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="ac">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Bacolod Youth Coalition for Democracy
+                                </h4>
+                                <p>
+                                    Youth are educated on their civic rights and responsibilities and are engaged to
+                                    meaningfully participate in safeguarding our democracy.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,16 +197,74 @@
             <p>
                 Young people and the community are provided with opportunities to make a difference.
             </p>
-            <div class="project" id="cce">
-                <div class="project-gradient">
-                    <div class="project-content">
-                        <h4>
-                            Young Leaders Fellowship
-                        </h4>
-                        <p>
-                            Youth leaders are equipped with the knowledge and skills necessary to co-create and
-                            implement solutions to issues confronting them and their communities.
-                        </p>
+            <div id="carousel-cce" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="project carousel-item active" id="ewd">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Youth Employment Enrichment Solutions
+                                </h4>
+                                <p>
+                                    Youth who are seeking employment are equipped with essential tools for job
+                                    placement and
+                                    have
+                                    increased their awareness of their rights as members of the Philippine
+                                    workforce.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="ecs">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Project SEXZ
+                                </h4>
+                                <p>
+                                    Children and youth are educated on sexual and reproductive health and rights and HIV
+                                    through
+                                    participatory sessions to increase their personal sexual protective behaviors and
+                                    practices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="cce">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Young Leaders Fellowship
+                                </h4>
+                                <p>
+                                    Youth leaders are equipped with the knowledge and skills necessary to co-create and
+                                    implement solutions to issues confronting them and their communities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="ac">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Bacolod Youth Coalition for Democracy
+                                </h4>
+                                <p>
+                                    Youth are educated on their civic rights and responsibilities and are engaged to
+                                    meaningfully participate in safeguarding our democracy.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -102,16 +273,74 @@
             <p>
                 Young people and the community are provided with opportunities to make a difference.
             </p>
-            <div class="project" id="ac">
-                <div class="project-gradient">
-                    <div class="project-content">
-                        <h4>
-                            Bacolod Youth Coalition for Democracy
-                        </h4>
-                        <p>
-                            Youth are educated on their civic rights and responsibilities and are engaged to
-                            meaningfully participate in safeguarding our democracy.
-                        </p>
+            <div id="carousel-ac" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="project carousel-item active" id="ewd">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Youth Employment Enrichment Solutions
+                                </h4>
+                                <p>
+                                    Youth who are seeking employment are equipped with essential tools for job
+                                    placement and
+                                    have
+                                    increased their awareness of their rights as members of the Philippine
+                                    workforce.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="ecs">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Project SEXZ
+                                </h4>
+                                <p>
+                                    Children and youth are educated on sexual and reproductive health and rights and HIV
+                                    through
+                                    participatory sessions to increase their personal sexual protective behaviors and
+                                    practices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="cce">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Young Leaders Fellowship
+                                </h4>
+                                <p>
+                                    Youth leaders are equipped with the knowledge and skills necessary to co-create and
+                                    implement solutions to issues confronting them and their communities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project carousel-item" id="ac">
+                        <div class="project-gradient">
+                            <div class="project-content">
+                                <h4>
+                                    Bacolod Youth Coalition for Democracy
+                                </h4>
+                                <p>
+                                    Youth are educated on their civic rights and responsibilities and are engaged to
+                                    meaningfully participate in safeguarding our democracy.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

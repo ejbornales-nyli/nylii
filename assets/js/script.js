@@ -5,16 +5,17 @@ const element = document.querySelector('.stat-section');
 const startCounters = () => {
   ValueDisplays.forEach((ValueDisplay) => {
     const updateCount = () => {
-      const StartValue = parseInt(ValueDisplay.textContent);
-      const EndValue = parseInt(ValueDisplay.getAttribute("data-val"));
+      const StartValue = parseInt(ValueDisplay.textContent.replace(/,/g, ''));
+      const EndValue = parseInt(ValueDisplay.getAttribute("data-val").replace(/,/g, ''));
       const duration = Math.ceil(EndValue * 0.00125);
       if (StartValue < EndValue) {
-        ValueDisplay.textContent = StartValue + duration;
+        const newValue = (StartValue + duration).toLocaleString();
+        ValueDisplay.textContent = newValue;
         setTimeout(updateCount, 1);
       } else {
-        ValueDisplay.textContent = EndValue;
+        ValueDisplay.textContent = EndValue.toLocaleString();
       }
-    };
+    };    
     updateCount();
   });
 }
@@ -97,17 +98,21 @@ projects.forEach((project) => {
   });
 });
 
-// Mobile dropdown for about us
-// const dropdown = document.querySelector('.dropdown');
-// const sections = document.querySelectorAll('.section');
+// Get the dropdown element and all the sections
+const dropdown = document.querySelector('.dropdown');
+const sections = document.querySelectorAll('.mobile-section');
 
-// dropdown.addEventListener('change', function() {
-//   const selectedSection = this.value;
-//   for (let i = 0; i < sections.length; i++) {
-//     if (sections[i].id === selectedSection) {
-//       sections[i].style.display = 'block';
-//     } else {
-//       sections[i].style.display = 'none';
-//     }
-//   }
-// });
+// Listen for changes in the dropdown selection
+dropdown.addEventListener('change', function() {
+  // Get the selected option text
+  const selectedOption = dropdown.options[dropdown.selectedIndex].textContent;
+
+  // Hide all sections and show the selected one
+  sections.forEach(function(section) {
+    if (section.querySelector('a').textContent === selectedOption) {
+      section.classList.add('active');
+    } else {
+      section.classList.remove('active');
+    }
+  });
+});
