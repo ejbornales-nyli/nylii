@@ -794,10 +794,13 @@ div.carousel-inner {
 }
 
 .project-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	height: 90%;
+	position: absolute;
 	padding: 0rem 1.25rem;
 	color: white;
-	position: relative;
-	bottom: -180px;
 	transition: opacity 0.35s ease-out;
 	opacity: 0;
 }
@@ -919,5 +922,4 @@ div.carousel-inner {
 	.mobile-about-content .mobile-section.active {
 		display: block;
 	}
-
 }
