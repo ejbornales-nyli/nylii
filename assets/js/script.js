@@ -116,3 +116,15 @@ dropdown.addEventListener('change', function() {
     }
   });
 });
+
+const sectionSelector = document.getElementById("section-selector");
+		const contentSections = document.querySelectorAll(".content-section");
+
+		sectionSelector.addEventListener("change", () => {
+			// hide all content sections
+			contentSections.forEach(section => section.style.display = "none");
+
+			// show selected content section
+			const selectedSection = document.getElementById(sectionSelector.value);
+			selectedSection.style.display = "block";
+		});

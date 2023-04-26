@@ -8,7 +8,6 @@
 	<title>Negrosanon Young Leaders Institute</title>
 	<link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
 	<link rel="stylesheet" href="assets/css/style.css" />
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,16 +15,18 @@
 	<link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
 	<link href="assets/fontawesome/css/brands.css" rel="stylesheet">
 	<link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+
+	<script defer src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
 	<?php require_once 'navbar.php'; ?>
 
 	<section class="hero">
-		<div class="container h-100 d-flex justify-content-center p-2">
+		<div class="container">
 			<div class="d-flex flex-column justify-content-center align-items-center p-2">
 				<div class="p-2">
-					<h1 style="text-align: center;">Negrosanon Young Leaders Institute Incorporated</h1>
+					<h1 id="hero-title">Negrosanon Young Leaders Institute Incorporated</h1>
 				</div>
 				<div class="p-2">
 					<span class="subtitle">Providing meaningful opportunities, enabling mentorship, and resources
@@ -44,25 +45,25 @@
 	</section>
 
 	<section class="program-section">
-		<div class="container d-flex flex-column align-items-center p-2">
+		<div class="container d-flex flex-column align-items-center p-1">
 			<div class="section-header-light">
 				<hr>
 				<h2>Our Programs</h2>
 			</div>
-			<div class="p-2">
-				<span>Negrosanon Young Leaders Institute aspires to enable and engage
+			<div class="container">
+				<p>Negrosanon Young Leaders Institute aspires to enable and engage
 					children, young people, families and communities to collectively
-					work to make a difference.</span>
+					work to make a difference.</p>
 			</div>
-			<div class="p-3" style="display: flex;">
+			<div class="p-2" style="display: flex;">
 				<button type="button" class="nyli-btn-primary-light">
 					<a href="programs.php">Explore Programs</a>
 				</button>
 			</div>
 		</div>
-		<div class="card-section">
-			<div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 p-4">
-				<div class="col p-4">
+		<div class="card-section container-fluid">
+			<div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+				<div class="col p-2">
 					<div class="program">
 						<div class="program-content" id="ewd">
 							<div class="pre-content">
@@ -77,7 +78,7 @@
 					</div>
 				</div>
 
-				<div class="col p-4">
+				<div class="col p-2">
 					<div class="program">
 						<div class="program-content" id="ecs">
 							<div class="pre-content">
@@ -92,7 +93,7 @@
 					</div>
 				</div>
 
-				<div class="col p-4">
+				<div class="col p-2">
 					<div class="program">
 						<div class="program-content" id="cce">
 							<div class="pre-content">
@@ -107,7 +108,7 @@
 					</div>
 				</div>
 
-				<div class="col p-4">
+				<div class="col p-2">
 					<div class="program">
 						<div class="program-content" id="ac">
 							<div class="pre-content">
@@ -131,9 +132,9 @@
 				<hr>
 				<h2>Our Impact</h2>
 			</div>
-			<div class="p-2">
-				<span>Working with donors and partners, we commit to contribute to the United Nations 2030 Sustainable
-					Development Goals.</span>
+			<div class="container">
+			<p>Working with donors and partners, we commit to contribute to the United Nations 2030 Sustainable
+				Development Goals.</p>
 			</div>
 
 			<div class="container stat-section">
@@ -172,22 +173,23 @@
 	</section>
 
 	<section class="action-section">
-		<div class="container d-flex flex-column align-items-center p-2">
+		<div class="container d-flex flex-column align-items-center">
 			<div class="section-header-light">
 				<hr>
 				<h2>Get Involved</h2>
 			</div>
 			<div class="p-2">
-				<span>Help us in reaching more youth leaders in Negros! Our work needs your support to provide more
-					opportunities for the youth and their communities.</span>
+				<p>Help us in reaching more youth leaders in Negros! Our work needs your support to provide more
+					opportunities for the youth and their communities.</p>
 			</div>
 		</div>
-		<div class="volunteer container-fluid">
-			<div class="volunteer-desc">
+		<div class="volunteer">
+			<div class="container volunteer-desc">
 				<h3>Be a Volunteer</h3>
-				<span>You may have spare time, or passionate about the youth movement and engagement
-					innation-building, join us as one of our Volunteer Members and help us reach more young people to be
-					the frontlines of developing their communities.</span>
+				<p class="text-start">You may have spare time, or be passionate about the youth movement and engagement
+					in nation-building. Join us as one of our Volunteer Members and help us reach more young people to
+					be
+					in the frontlines of developing their communities.</p>
 				<div class="vol-btn pt-3"><button type="button" class="nyli-btn-primary-dark">
 						<a href="https://forms.gle/gXDX92Zvk39GNw4R9">Sign Up</a></div>
 			</div>
@@ -226,10 +228,6 @@
 
 	<?php require_once 'footer.php'; ?>
 
-	<script src="/assets/bootstrap/js/bootstrap.bundle.js"></script>
-	<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="/assets/bootstrap/js/bootstrap.js"></script>
-	<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/assets/js/script.js"></script>
 	<script>
 		const width = window.innerWidth;
@@ -237,7 +235,5 @@
 
 		console.log(`The viewport's width is ${width} and the height is ${height}.`);
 	</script>
-
 </body>
-
 </html>

@@ -8,7 +8,6 @@
 	<title>Stories | Negrosanon Young Leaders Institute</title>
 	<link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
 	<link rel="stylesheet" href="assets/css/style.css" />
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +15,8 @@
 	<link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
 	<link href="assets/fontawesome/css/brands.css" rel="stylesheet">
 	<link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+
+	<script defer src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -37,7 +38,7 @@
 	<section class="stories-section">
 		<div class="container d-flex flex-column">
 			<div class="filter-content row" style="margin: 2rem 0rem;">
-				<div class="col-6">
+				<div class="col-md-6 col-sm-12 order-last order-sm-first">
 					<select class="dropdown">
 						<option class="option-link" value="all">All</option>
 						<option class="option-link" value="category1">Category 1</option>
@@ -45,15 +46,18 @@
 						<option class="option-link" value="category3">Category 3</option>
 					</select>
 				</div>
-				<div class="col-6">
-					<form class="search-form" action="#" style="float: right;">
+				<div class="col-md-6 col-sm-12 order-first order-sm-last">
+					<form class="search-form" action="#">
 						<div class="search-field form-control">
 							<span class="fa fa-search search-icon"></span>
 							<input type="text" class="search form-control" placeholder="Search" name="search"
 								autocomplete="off">
 						</div>
 						<button type="button" class="nyli-btn-primary-light">
-							<a href="#">Search</a>
+							<a id="search-button-desktop" href="#">Search</a>
+							<a id="search-button-mobile" href="#">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
 						</button>
 					</form>
 				</div>
@@ -135,11 +139,13 @@
 
 	<?php require_once 'footer.php'; ?>
 
-	<script src="/assets/bootstrap/js/bootstrap.bundle.js"></script>
-	<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="/assets/bootstrap/js/bootstrap.js"></script>
-	<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/assets/js/script.js"></script>
+	<script>
+		const width = window.innerWidth;
+		const height = window.innerHeight;
+
+		console.log(`The viewport's width is ${width} and the height is ${height}.`);
+	</script>
 	<script src="/assets/js/pagination.js"></script>
 </body>
 

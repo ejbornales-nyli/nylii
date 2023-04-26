@@ -8,7 +8,6 @@
 	<title>About Us | Negrosanon Young Leaders Institute</title>
 	<link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
 	<link rel="stylesheet" href="assets/css/style.css" />
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +15,8 @@
 	<link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
 	<link href="assets/fontawesome/css/brands.css" rel="stylesheet">
 	<link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+
+	<script defer src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -52,27 +53,30 @@
 							<li><a href="#section3" class="section-link"><button class="">Alumni</button></a></li>
 						</div>
 					</ul>
-				</div>
-
-				<div class="about-dropdown">
-					<select class="dropdown">
-						<option value="#mobile-section1">Humble Beginnings</option>
-						<option value="#mobile-section2">Mission, Vision, and Advocacy</option>
-						<option value="#mobile-section3">Alumni</option>
+				</div class = "mobile-about-content">
+				<!-- For mobile -->
+				<!-- <div>
+					<select id="section-selector">
+						<option value="section-1">Section 1</option>
+						<option value="section-2">Section 2</option>
+						<option value="section-3">Section 3</option>
 					</select>
-				</div>
 
-				<div class="mobile-about-content">
-					<div class="mobile-section active" id="mobile-section1">
-						<p>This is section 1</p>
+					<div id="section-1" class="content-section">
+						<h2>Section 1</h2>
+						<p>This is the content for section 1.</p>
 					</div>
-					<div class="mobile-section" id="mobile-section2">
-						<p>This is section 2</p>
+
+					<div id="section-2" class="content-section">
+						<h2>Section 2</h2>
+						<p>This is the content for section 2.</p>
 					</div>
-					<div class="mobile-section" id="mobile-section3">
-						<p>This is section 3</p>
+
+					<div id="section-3" class="content-section">
+						<h2>Section 3</h2>
+						<p>This is the content for section 3.</p>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="about-content col-lg-8 col-sm-12">
 					<div class="section active" id="section1">
@@ -185,16 +189,15 @@
 		</div>
 	</section>
 
-
-
-
 	<?php require_once 'footer.php'; ?>
 
-	<script src="/assets/bootstrap/js/bootstrap.bundle.js"></script>
-	<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="/assets/bootstrap/js/bootstrap.js"></script>
-	<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/assets/js/script.js"></script>
+	<script>
+		const width = window.innerWidth;
+		const height = window.innerHeight;
+
+		console.log(`The viewport's width is ${width} and the height is ${height}.`);
+	</script>
 </body>
 
 </html>

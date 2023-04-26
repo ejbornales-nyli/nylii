@@ -2,20 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Programs | Negrosanon Young Leaders Institute</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
-    <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Programs | Negrosanon Young Leaders Institute</title>
+	<link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+	<link href="assets/fontawesome/css/brands.css" rel="stylesheet">
+	<link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+
+	<script defer src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -33,13 +34,13 @@
     </section>
 
     <section class="program-section">
-        <div class="container d-flex flex-column align-items-center p-5">
-            <p style="margin-bottom: 3rem;">
+        <div class="container d-flex flex-column align-items-center">
+            <p id="program-general">
                 Working for and with the most vulnerable, Negrosanon Young Leaders Institute yearns to enable and engage
                 children, young people, their families and communities to collectively work to make a difference.
             </p>
 
-            <h3>Education and Workforce Development</h3>
+            <h3 class="program-title">Education and Workforce Development</h3>
             <p>
                 Children, young individuals, and professionals are equipped with tools essential and necessary for
                 employment and livelihood opportunities.
@@ -116,7 +117,7 @@
                 </div>
             </div>
 
-            <h3>Empowerment Capacity and Strengthening</h3>
+            <h3 class="program-title">Empowerment Capacity and Strengthening</h3>
             <p>
                 Duty-bearers and rights-holders are provided with better access to enhance their knowledge, skills, and
                 capacities for sustainable community development.
@@ -193,7 +194,7 @@
                 </div>
             </div>
 
-            <h3>Community and Civic Engagement</h3>
+            <h3 class="program-title">Community and Civic Engagement</h3>
             <p>
                 Young people and the community are provided with opportunities to make a difference.
             </p>
@@ -269,7 +270,7 @@
                 </div>
             </div>
 
-            <h3>Advocacy and Communications</h3>
+            <h3 class="program-title">Advocacy and Communications</h3>
             <p>
                 Young people and the community are provided with opportunities to make a difference.
             </p>
@@ -349,11 +350,13 @@
 
     <?php require_once 'footer.php'; ?>
 
-    <script src="/assets/bootstrap/js/bootstrap.bundle.js"></script>
-    <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/bootstrap/js/bootstrap.js"></script>
-    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/assets/js/script.js"></script>
+	<script src="/assets/js/script.js"></script>
+	<script>
+		const width = window.innerWidth;
+		const height = window.innerHeight;
+
+		console.log(`The viewport's width is ${width} and the height is ${height}.`);
+	</script>
 </body>
 
 </html>
