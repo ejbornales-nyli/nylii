@@ -177,74 +177,93 @@
 		<div class="row" style="text-align: center; padding-bottom: 1rem;">
 			<div class="footer-icons">
 				<a href="https://www.facebook.com/nyliincph">
-					<i class="fa-brands fa-facebook" style="font-size: 28px;"></i>
+					<i class="fa-brands fa-facebook"></i>
 				</a>
 				<a href="https://www.instagram.com/nyliinc_ph">
-					<i class="fa-brands fa-instagram" style="font-size: 28px; margin-left: 10px;"></i>
+					<i class="fa-brands fa-instagram" style="margin-left: 10px;"></i>
 				</a>
 				<a href="https://www.youtube.com/@nyliinc_ph">
-					<i class="fa-brands fa-youtube" style="font-size: 28px; margin: 0px 10px;"></i>
+					<i class="fa-brands fa-youtube" style="margin: 0px 10px;"></i>
 				</a>
 				<a href="https://twitter.com/nyliinc_ph">
-					<i class="fa-brands fa-twitter" style="font-size: 28px; margin-right: 10px;"></i>
+					<i class="fa-brands fa-twitter" style="margin-right: 10px;"></i>
 				</a>
 				<a href="https://www.tiktok.com/@nyliinc_ph">
-					<i class="fa-brands fa-tiktok" style="font-size: 28px;"></i>
+					<i class="fa-brands fa-tiktok"></i>
 				</a>
-			</div>
-		</div>
-		<div class="row mb-3">
-			<div class="col-2"></div>
-			<div class="col-4">
-				<ul class="footer-links">
-					<li><a href="about-us.php" class="footer-link">About Us</a></li>
-					<li><a href="stories.php" class="footer-link">Stories</a></li>
-					<li><a href="publications.php" class="footer-link">Publications</a></li>
-				</ul>
-			</div>
-			<div class="col-4">
-				<ul class="footer-links">
-					<li><a href="partners.php" class="footer-link">Partners</a></li>
-					<li><a href="contact-us.php" class="footer-link">Contact</a></li>
-					<li><a href="#" class="footer-link">Donate</a></li>
-				</ul>
-			</div>
-			<div class="col-2"></div>
-		</div>
-		<div class="row" style="text-align: center;">
-			<div class="col-12">
-				<span>
-					<i class="fa-solid fa-phone" style="font-size: 20px;"></i>&nbsp;
-					Contact Us
-				</span>
-			</div>
-		</div>
-		<div class="row mb-4" style="text-align: center;">
-			<div class="col-12">
-				<p class="footer-info">
-					(034) 469 4797
-				</p>
-			</div>
-		</div>
-		<div class="row" style="text-align: center;">
-			<div class="col-12">
-				<span>
-					<i class="fa-solid fa-location-dot" style="font-size: 22px;"></i>&nbsp;&nbsp;
-					Location
-				</span>
-			</div>
-		</div>
-		<div class="row" style="padding-bottom: 2rem;">
-			<div class="col-12" style="text-align: center;">
-				<p id="address" class="footer-info">
-					Unit 2FC, 2/F Negros First Cyber Centre Annex Building, Hernaez-Lacson St 6100 Bacolod City,
-					Philippines
-				</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-12">
-				<hr id="mobile-separator">
+			<button class="mobile-dropdown" type="button" data-bs-toggle="collapse"
+				data-bs-target="#footer-links-mobile" aria-controls="footer-links-mobile" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span>Links</span>
+				<span class="icon-container">
+					<i class="fa-solid fa-chevron-down"></i>
+				</span>
+			</button>
+		</div>
+		<div class="row mb-3">
+			<div class="collapse" id="footer-links-mobile">
+				<div class="navbar-nav">
+					<ul class="footer-links-mobile">
+						<li>
+							<a href="about-us.php">About Us</a>
+						</li>
+						<li>
+							<a href="stories.php">Stories</a>
+						</li>
+						<li>
+							<a href="publications.php">Publications</a>
+						</li>
+						<li>
+							<a href="partners.php">Partners</a>
+						</li>
+						<li>
+							<a href="contact-us.php">Contact Us</a>
+						</li>
+						<li>
+							<a href="#">Donate</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<hr class="footer-link-separator">
+			</div>
+		</div>
+		<div class="row">
+			<button class="mobile-dropdown" type="button" data-bs-toggle="collapse" data-bs-target="#footer-contact"
+				aria-controls="footer-contact" aria-expanded="false" aria-label="Toggle navigation">
+				<span>Contact Us</span>
+				<span class="icon-container">
+					<i class="fa-solid fa-chevron-down"></i>
+				</span>
+			</button>
+		</div>
+		<div class="row mb-3">
+			<div class="collapse" id="footer-contact">
+				<div class="navbar-nav">
+					<ul class="footer-links-mobile">
+						<li>
+							<p>
+								<i class="fa-solid fa-phone" style="font-size: 14px;"></i>&nbsp;
+								(034) 469 4797
+							</p>
+						</li>
+						<li>
+							<p>
+								<i class="fa-solid fa-location-dot" style="font-size: 16px;"></i>&nbsp;&nbsp;
+								Unit 2FC, 2/F Negros First Cyber Centre Annex Building, Hernaez-Lacson St 6100 Bacolod
+								City,
+								Philippines
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<hr class="footer-link-separator">
 			</div>
 		</div>
 		<div class="row">
