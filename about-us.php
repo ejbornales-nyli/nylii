@@ -82,7 +82,7 @@
 				</div> -->
 
 				<div class="about-content col-lg-8 col-sm-12">
-					<div class="section active" id="section1">
+					<div class="section active justify" id="section1">
 						<div class="video-container">
 							<iframe src="https://www.youtube.com/embed/vwT0n5VSOn0" frameborder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -149,7 +149,7 @@
 						</p>
 					</div>
 
-					<div class="section" id="section2">
+					<div class="section justify" id="section2">
 						<div class="row">
 							<div class="row sec-col">
 								<h4>Our Mission</h4>
@@ -175,41 +175,49 @@
 						</div>
 					</div>
 
-					<div class="section" id="section3">
-						<p>Integrity
+					<div class="section justify" id="section3">
+						<h4>Integrity</h4>
+						<p>
 						In our youth development programs, we prioritize modeling and promoting integrity in our interactions while providing opportunities for young people to develop their leadership skills through activities that promote honesty, fairness, and responsibility. Our goal is to foster a culture of integrity that helps young people become ethical and effective leaders who positively impact their communities.
 						</p>
-
-						<p>Accountability
+						
+						<h4>Accountability</h4>
+						<p>
 						We prioritize accountability in our youth-centered and community social accountability approach as we believe it is critical to building trust and credibility with the communities we serve. Therefore, we create a culture that promotes responsible and ethical behavior, fostering a sense of ownership and responsibility among young people and community members.
 						</p>
-
-						<p>Empowerment
+						
+						<h4>Empowerment</h4>
+						<p>
 						Empowerment is a core value that guides our work with youth in vulnerable and disadvantaged situations. We believe in providing them with the tools and resources they need to create a better future for themselves and their communities.
 						</p>
-
-						<p>Inclusiveness
+						
+						<h4>Inclusiveness</h4>
+						<p>
 						We prioritize a proactive approach that encourages meaningful participation from children and youth in our efforts to create an inclusive environment that recognizes and values their diverse needs and perspectives. We believe that by providing equal opportunities and resources, we can empower young people to succeed and make meaningful contributions to their communities.
 						</p>
-
-						<p>Nurturance
+						
+						<h4>Nurturance</h4>
+						<p>
 						We anchor our value of nurturance for children and youth in the Positive Youth Development (PYD) framework, which emphasizes the importance of fostering supportive relationships, environments, and experiences to promote youth's positive development. We prioritize creating a nurturing environment that supports the well-being and positive development of young people, and promotes community building through meaningful connections and relationships.
 						</p>
 
-						<p>Purposive
+						<h4>Purposive</h4>
+						<p>
 						Purposive is a core value that guides our work, emphasizing a solutions-focused approach that is community-centered. We prioritize designing interventions that are intentional and goal-oriented, rooted in community needs and strengths, and that foster collaboration and collective action to achieve positive change.
 						</p>
 
-						<p>People centered
+						<h4>People-centered</h4>
+						<p>
 						People-centered is a core value that emphasizes the inherent worth and dignity of all individuals, and their interdependence with one another. We prioritize designing and implementing programs and interventions that respect and promote the inherent rights of people, and that foster an inclusive and equitable environment where everyone is valued, respected, and supported to reach their full potential.
 						</p>
 
-						<p>Sustainability
+						<h4>Sustainability</h4>
+						<p>
 						Sustainability is a core value that guides our programming and decision-making processes in the organization. We are taking a holistic approach to child and youth development and we are promoting initiatives and programs that will provide long-term impacts to the lives of children and youth. We are also striving to incorporate sustainable practices into the day-to-day operations of the organization, and that we do no harm, either to people or the environment. Ultimately, it reflects our commitment to creating a safer and better world for children and young people to inherit.
 						</p>
 					</div>
 
-					<div class="section" id="section4">
+					<div class="section justify" id="section4">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet quam auctor, laoreet
 							lacus
 							a, malesuada massa. Nullam ultrices lectus quis neque eleifend, nec ullamcorper velit

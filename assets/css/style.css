@@ -121,6 +121,10 @@ textarea.form-control:focus {
 	box-shadow: 0 0 0 5px #E6F2B5;
 }
 
+.justify {
+	text-align: justify;
+}
+
 .nyli-btn-nav,
 .nyli-btn-primary-dark,
 .nyli-btn-primary-light {
@@ -299,6 +303,11 @@ span {
 .section-header-dark hr {
 	background-color: #A3C53A;
 	border: 2px solid #A3C53A;
+}
+
+.justify p {
+	text-align: justify;
+ 	text-justify: inter-word;
 }
 
 
@@ -517,7 +526,6 @@ div.card-section {
 
 .program {
 	width: 100%;
-	height: 342px;
 	background-color: #333434;
 	border-radius: 10px;
 	overflow: hidden;
@@ -864,6 +872,10 @@ h5 {
 
 /* Smartphones */
 @media screen and (min-width: 320px) {
+	.program {
+		height: 175px;
+	}
+
 	.footer-link, .footer-text {
 		font-size: 12px;
 	}
@@ -981,6 +993,7 @@ h5 {
 	}
 
 	.icons {
+		display: none;
 		top: 80%;
 	}
 
@@ -1140,10 +1153,22 @@ h5 {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+	.program {
+		height: 250px;
+	}
+
+	.footer-link {
+		font-size: 14px;
+	}
+
+	.icons {
+		display: block;
+	}
+
 	.icons ul li {
 		height: 35px;
 		width: 35px;
-		padding-top: 6px;
+		padding-top: 8px;
 		margin-bottom: 8px;
 	}
 
@@ -1252,7 +1277,7 @@ h5 {
 	.icons ul li {
 		height: 40px;
 		width: 40px;
-		padding-top: 8px;
+		padding-top: 10px;
 		margin-bottom: 10px;
 	}
 
@@ -1402,4 +1427,6 @@ h5 {
 		padding-left: 10rem;
 		padding-right: 10rem;
 	}
+
+	
 }
