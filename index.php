@@ -228,7 +228,7 @@
 
 	<?php require_once 'footer.php'; ?>
 
-	<script src="/assets/js/script.js"></script>
+	<script src="assets/js/script.js"></script>
 	<script>
 		const width = window.innerWidth;
 		const height = window.innerHeight;
